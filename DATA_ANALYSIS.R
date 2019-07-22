@@ -22,42 +22,73 @@ str(datafile)
 
 
 #################################################Useful Plots and objects
-  #these are copied from lower in the file and arranged so they're all together
+#these are copied from lower in the file and arranged so they're all together
 
-
-
+###Not plots, but necessary for plots:
 #this makes a subset  of all columns just for IUCN 4,5 and 6
 threatened=subset(x=datafile, subset=IUCN_codified %in% c('4','5','6'))
 
-#this shows a boxplot of country and ln(MSY)
-plot(x=datafile$countries, y=datafile$lnMSY, xlab="Management Country", ylab="ln(MSY)", main="ln(MSY) by Country Manager", col="blue")
+#these are important for box plots
+deficient <-subset(x=datafile, subset=IUCN_codified=="1", select=final_value)
+least <-subset(x=datafile, subset=IUCN_codified=="2", select=final_value)
+near<-subset(x=datafile, subset=IUCN_codified=="3", select=final_value)
+vulnerable<-subset(x=datafile, subset=IUCN_codified=="4", select=final_value)
+endangered<-subset(x=datafile, subset=IUCN_codified=="5", select=final_value)
+critical<-subset(x=datafile, subset=IUCN_codified=="6", select=final_value)
 
-#this shows country and cost/price. Maybe not the most useful because of the range issues
-plot(x=datafile$countries, y=datafile$cost_value, xlab="Managing Country", ylab="Cost/Price", main="Cost/Price by Country", col="blue")
+###Plots:
 
-#this shows IUCN status and ln(MSY). Need to reorder status for threat level.
-plot(datafile$IUCN_status, y=datafile$lnMSY, xlab="IUCN Status", ylab="ln(MSY)", main="IUCN Status andln(MSY)", col="blue")
+#weird plot:
 
+#I need to find a way to add a legend for color coding and better configure status to show increasing, not alphabetical order
+plot(x=datafile$countries, y=datafile$IUCN_status, xlab='Management Country', ylab='IUCN Status', main="Proportion of IUCN Status by Managing Country")
+legend(x=5, y=2, legend=c("Critical (CR)","Endangered (EN)", "Vulnerable (VU)","Near Threatened (NT)", "Lease Concern (LC)", "Data Deficient (DD)"))
+    #so far that legend isn't working, I'll need to figure something else out
+
+
+#Scatterplots:
+
+#what is the "index"(the x axis)?
+plot(datafile$final_value, xlab="", ylab="((cost+subsidy)/value) * ln(MSY)", main="Bioeconomic Factor")
+plot(datafile$lnMSY, xlab="", ylab="ln(MSY)", main="ln(MSY)")
+plot(datafile$cost_value, xlab="", ylab="(cost+subsidy)/value", main="Cost Over Price")
 #this shows scatterplot of codified status and ln(MSY)
 plot(x=datafile$IUCN_codified, y=datafile$lnMSY, xlab="IUCN Status Code", ylab="ln(MSY)", main="IUCN Status Code and ln(MSY)", col="blue")
-
-#this shows a scatterplot of IUCN code and final_value. 
+#this shows a scatterplot of IUCN code and final_value.
 plot(x=datafile$IUCN_codified, y=datafile$final_value, xlab="IUCN Status Code", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status Code and Bioeconomic Factor", col="blue")
 
-#this shows the same as above but as a boxplot with status. Need to reorder status.
+
+#boxplots:
+
+#this shows a boxplot of country and ln(MSY)
+plot(x=datafile$countries, y=datafile$lnMSY, xlab="Management Country", ylab="ln(MSY)", main="ln(MSY) by Country Manager", col="blue")
+#this shows country and cost/price. Maybe not the most useful because of the range issues
+plot(x=datafile$countries, y=datafile$cost_value, xlab="Managing Country", ylab="Cost/Price", main="Cost/Price by Country", col="blue")
+#this shows IUCN status and ln(MSY). Need to reorder status for threat level.
+plot(datafile$IUCN_status, y=datafile$lnMSY, xlab="IUCN Status", ylab="ln(MSY)", main="IUCN Status andln(MSY)", col="blue")
+#Need to reorder status.
 plot(x=datafile$IUCN_status, y=datafile$final_value, xlab="IUCN Status", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status and Bioeconomic Factor", col="blue")
+#this works,  just need to rename the Y labels!(help from :https://stackoverflow.com/questions/9975789/multiple-boxplots-in-one-in-r  and https://www.datamentor.io/r-programming/box-plot/)
+boxplot(x=c(critical, endangered, vulnerable, near, least, deficient), y=datafile$final_value, at=c(1,2,3,4,5,6),names=c("Critical", "Endangered", "Vulnerable", "Near Treatened", "Least Concern", "Data Deficient"), xlab="IUCN Status", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status and Bioeconomic Factor", col=c("red", "orange", "yellow", "green", "blue", "purple"))
+
+
+#Histograms:
 
 #this is the base for the final_value histogram. Can manipulate breaks and other factos from there.The density curve isn't needed, but it adds another visual rpresentation.
 hist(datafile$final_value,breaks=20, col=4, prob=T, xlab= "((cost+subsidy)/value)*ln(MSY)", main="Density, Breaks=20", xlim=c(0,50))
 lines(density(datafile$final_value, na.rm=T),lwd=2, col="black")
 
+#Histograms to make, try different breaks:
+#make CR,EN,VU,NT, LC (NO DD)
+hist(c(critical, endangered, vulnerable, near, least),breaks=20, col=4, prob=T, xlab= "((cost+subsidy)/value)*ln(MSY)", main="Density, Breaks=20", xlim=c(0,50))
+hist(vulnerable)
+    #error: x must be numeric
+#MAKE CR,EN,VU,NT
+#MAKE CR,EN
 
-#I need to find a way to add a legend for color coding and better configure status to show increasing, not alphabetical order
-plot(x=datafile$countries, y=datafile$IUCN_status, xlab='Management Country', ylab='IUCN Status', main="Proportion of IUCN Status by Managing Country")
-
-#this works,  just need to rename the Y labels!(help from :https://stackoverflow.com/questions/9975789/multiple-boxplots-in-one-in-r  and https://www.datamentor.io/r-programming/box-plot/)
-boxplot(x=c(critical, endangered, vulnerable, near, least, deficient), y=datafile$final_value, at=c(1,2,3,4,5,6),names=c("Critical", "Endangered", "Vulnerable", "Near Treatened", "Least Concern", "Data Deficient"), xlab="IUCN Status", ylab="Bioeconomic Factor", main="IUCN Status and Bioeconomic Factor", col=c("red", "orange", "yellow", "green", "blue", "purple"))
-
+#MAKE CR,EN,VU
+hist(threatened$final_value, na.rm=T, freq=F, breaks=20, xlim=c(5,35))
+lines(density(datafile$final_value, na.rm=T),lwd=2, col="black")
 
 
 #################################################Practice, might not be used
