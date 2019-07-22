@@ -1,4 +1,4 @@
-#################################################Getting Started
+####################################################################################Getting Started
 #just getting started, need to make sure to load things correctly!
 
 
@@ -15,7 +15,49 @@ datafile<-read.csv(file="RAM_IUCN_DATA.csv", header=T)
 
 #get a look at how R is reading the data, make sure it's organized how you want
 str(datafile)
-# also type into the console or click on the new data item to open it in a view tab: view(datafile) to look at the data table s R read it
+# also type into the console or click on the new data item to open it in a view tab: view(datafile) to look at the data tables R read it
+
+
+
+
+
+#################################################Useful Plots and objects
+  #these are copied from lower in the file and arranged so they're all together
+
+
+
+#this makes a subset  of all columns just for IUCN 4,5 and 6
+threatened=subset(x=datafile, subset=IUCN_codified %in% c('4','5','6'))
+
+#this shows a boxplot of country and ln(MSY)
+plot(x=datafile$countries, y=datafile$lnMSY, xlab="Management Country", ylab="ln(MSY)", main="ln(MSY) by Country Manager", col="blue")
+
+#this shows country and cost/price. Maybe not the most useful because of the range issues
+plot(x=datafile$countries, y=datafile$cost_value, xlab="Managing Country", ylab="Cost/Price", main="Cost/Price by Country", col="blue")
+
+#this shows IUCN status and ln(MSY). Need to reorder status for threat level.
+plot(datafile$IUCN_status, y=datafile$lnMSY, xlab="IUCN Status", ylab="ln(MSY)", main="IUCN Status andln(MSY)", col="blue")
+
+#this shows scatterplot of codified status and ln(MSY)
+plot(x=datafile$IUCN_codified, y=datafile$lnMSY, xlab="IUCN Status Code", ylab="ln(MSY)", main="IUCN Status Code and ln(MSY)", col="blue")
+
+#this shows a scatterplot of IUCN code and final_value. 
+plot(x=datafile$IUCN_codified, y=datafile$final_value, xlab="IUCN Status Code", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status Code and Bioeconomic Factor", col="blue")
+
+#this shows the same as above but as a boxplot with status. Need to reorder status.
+plot(x=datafile$IUCN_status, y=datafile$final_value, xlab="IUCN Status", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status and Bioeconomic Factor", col="blue")
+
+#this is the base for the final_value histogram. Can manipulate breaks and other factos from there.The density curve isn't needed, but it adds another visual rpresentation.
+hist(datafile$final_value,breaks=20, col=4, prob=T, xlab= "((cost+subsidy)/value)*ln(MSY)", main="Density, Breaks=20", xlim=c(0,50))
+lines(density(datafile$final_value, na.rm=T),lwd=2, col="black")
+
+
+#I need to find a way to add a legend for color coding and better configure status to show increasing, not alphabetical order
+plot(x=datafile$countries, y=datafile$IUCN_status, xlab='Management Country', ylab='IUCN Status', main="Proportion of IUCN Status by Managing Country")
+
+#this works,  just need to rename the Y labels!(help from :https://stackoverflow.com/questions/9975789/multiple-boxplots-in-one-in-r  and https://www.datamentor.io/r-programming/box-plot/)
+boxplot(x=c(critical, endangered, vulnerable, near, least, deficient), y=datafile$final_value, at=c(1,2,3,4,5,6),names=c("Critical", "Endangered", "Vulnerable", "Near Treatened", "Least Concern", "Data Deficient"), xlab="IUCN Status", ylab="Bioeconomic Factor", main="IUCN Status and Bioeconomic Factor", col=c("red", "orange", "yellow", "green", "blue", "purple"))
+
 
 
 #################################################Practice, might not be used
@@ -23,75 +65,95 @@ str(datafile)
 
 
 #we want to get a subset of the species that are considered under threat, just for reference and to play around with later.
-###can we do this? I was trying to use something like                 threatened<-subset(x=datafile, subset=IUCN_codified== c('4','5','6')) but kept getting errors
+###can we do this? I was trying to use something like                 
+#threatened<-subset(x=datafile, subset=IUCN_codified== c('4','5','6')) but kept getting errors
 
 #!! I figured it out, I need an %in%. I tried just putting it as so: IUCN_codified== %in% C(...)
   #it didn't work, might need to remove the "==" or could maybe try replacing the "==" 
   #the directions I found online removed the x= and subset= but I want to keep that for future reference and to know exactly what I did.
 threatened=subset(x=datafile, subset=IUCN_codified %in% c('4','5','6'))
   
- 
+##This isn't working but I need a way to get only the final_value values and not all columns
+#threatened_final=subset(x=datafile, subset==IUCN_status %in% c("CR", "EN","VU"), select=final_value)
 
 #find average codified threat level. Might be an indicator of about how threatened the whole set of stocks is
 mean(datafile$IUCN_codified)
 
 #na.rm=T means that NA values are not included in any math (if they were, the result would always read NA which it not useful)
-mean(datafile$MSYbest, na.rm=T) #for example, try with F instead of T
+mean(datafile$lnMSY, na.rm=T) #for example, try with F instead of T
 
 
 
 #################################################Plotting
 #let's start trying to plot stuff, see what represents the data well!
 
-#what to plot?
-#histogram: final_value=x and anything else that looks interesting/useful
+#This is a dump of all the plots I made, but I have a section above listing all the plots I founde useful or important. I'm cutting out a lot of the spaces between lines to cut down on space.
+
 
 #going to try this and see if that might be good
 hist(datafile$IUCN_codified)
-
 ####This works fine!
 plot(datafile$IUCN_codified)
-
 ###This also works, but before I was getting the "+" error? (that's because you need to hit "esc" to get out of the "+" error, it'll show up as an error until you escape even if the thing you just ran actually works)
 plot(datafile$final_value)
-
 #managing countries and IUCN status (plots as a cool but weird bar graph?), needs some work to be easily interpreted and understood...
+    #I need to find a way to add a legend for color coding and better configure status to show increasing, not alphabetical order
 plot(x=datafile$countries, y=datafile$IUCN_status, xlab='Management Country', ylab='IUCN Status', main="Proportion of IUCN Status by Managing Country")
-
 #country and MSY?
-plot(x=datafile$countries, y=datafile$MSYbest, xlab="Management Country", ylab="Maximum Sustainable Yield (tons)", main="MSY by Country Manager")
-
+plot(x=datafile$countries, y=datafile$lnMSY, xlab="Management Country", ylab="ln(MSY)", main="ln(MSY) by Country Manager")
 #country and cost/value?
-plot(x=datafile$countries, y=datafile$cost_value)
-
+plot(x=datafile$countries, y=datafile$cost_value, xlab="Managing Country", ylab="Cost/Price", main="Cost/Price by Country")
 #IUCN status, MSY?
-plot(datafile$IUCN_status, y=datafile$MSYbest, xlab="IUCN Status", ylab="MSY (tons)", main="MSY and IUCN Status")
-
+plot(datafile$IUCN_status, y=datafile$lnMSY, xlab="IUCN Status", ylab="ln(MSY)", main="ln(MSY) and IUCN Status")
 #This also works!
 plot(x=datafile$final_value, y=datafile$IUCN_codified)
-
 #plot the reverse of the variables above?
-plot(x=datafile$IUCN_codified, y=datafile$final_value)
-
+plot(x=datafile$IUCN_codified, y=datafile$final_value, xlab="IUCN Status Code", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status Code and Bioeconomic Factor")
 #idk why this plots as a boxplot? But it's exactly what I want!
-plot(x=datafile$IUCN_status, y=datafile$final_value, xlab="IUCN Status", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status and Socioeconomic Value", col=4)
-
-#reverse aves of the above plot (doesn't naturally present as boxplot this way though?) making it a boxplot ends up with NOT what I want...
+plot(x=datafile$IUCN_status, y=datafile$final_value, xlab="IUCN Status", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status and Bioeconomic Factor", col=4)
+#reverse axes of the above plot (doesn't naturally present as boxplot this way though?) making it a boxplot ends up with NOT what I want...
       #boxplot(x=datafile$final_value, y=datafile$IUCN_status, xlab="((cost+subsidy)/value) * ln(MSY)", ylab="IUCN Status", main="IUCN Status and Socioeconomic Value", col=4)
-
 ###make that as a boxplot to show distribution
 #boxplot(x=datafile$IUCN_codified, y=datafile$final_value)
 ###that actually didn't work how I thought it would... Might need to make subsets for each IUCN codes, run for loop?
+
+deficient <-subset(x=datafile, subset=IUCN_codified=="1", select=final_value)
+least <-subset(x=datafile, subset=IUCN_codified=="2", select=final_value)
+near<-subset(x=datafile, subset=IUCN_codified=="3", select=final_value)
 vulnerable<-subset(x=datafile, subset=IUCN_codified=="4", select=final_value)
 endangered<-subset(x=datafile, subset=IUCN_codified=="5", select=final_value)
 critical<-subset(x=datafile, subset=IUCN_codified=="6", select=final_value)
+
+
 #create list of unique stockids
 stock=unique(datafile$stockid)
-#is a list right, or should I make a vector with the objects I created?
 
-boxplot(x=critical, y=datafile$final_value, ylim=c(0,25))
-boxplot(x=endangered, y=datafile$final_value, ylim=c(0,25))
-boxplot(x=vulnerable, y=datafile$final_value, ylim=c(0,25))
+
+
+##
+#is a list right, or should I make a vector with the objects I created?
+boxplot(x=critical, y=datafile$final_value, ylim=c(0,35))
+boxplot(x=endangered, y=datafile$final_value, ylim=c(0,35))
+boxplot(x=vulnerable, y=datafile$final_value, ylim=c(0,35))
+boxplot(x=threatened, y=datafile$final_value, ylim=c(0,35))
+##
+#this works,  just need to rename the Y labels!(help from :https://stackoverflow.com/questions/9975789/multiple-boxplots-in-one-in-r  and https://www.datamentor.io/r-programming/box-plot/)
+boxplot(x=c(critical, endangered, vulnerable, near, least, deficient), y=datafile$final_value, at=c(1,2,3,4,5,6),names=c("Critical", "Endangered", "Vulnerable", "Near Treatened", "Least Concern", "Data Deficient"), xlab="IUCN Status", ylab="Bioeconomic Factor", main="IUCN Status and Bioeconomic Factor", col=c("red", "orange", "yellow", "green", "blue", "purple"))
+
+##
+boxplot(x=critical, y=datafile$final_value, col="red", horizontal=T, ylim=c(0, 40))
+boxplot(x=endangered, y=datafile$final_value, col="orange", add=T, horizontal = T)
+boxplot(x=vulnerable, y=datafile$final_value, col="yellow", add=T, horizontal = T)
+##
+##
+boxplot(critical, endangered, vulnerable,
+        main="IUCN Status and Bioeconomic Factor",
+        las=2,
+        col=c("red", "orange", "yellow")
+        )
+#at=c(1,2,3),
+#names=c("Critical", "Endangered", "Vulnerable"),
+##
 
 
 
@@ -121,7 +183,7 @@ hist(datafile$final_value,breaks=20, freq=F, col=4, xlab= "((cost+subsidy)/value
 ##I tried breaks at 12,13,15,16,17,25, and 30 but those showed up as either 10 breaks or 20 (12-16 showed up at 10, 17-30 showed up as 20)
 
 
-#trying things out with density
+#trying things out with density (desity is when freq=F, and frequency is when freq=T)
 hist(datafile$final_value, freq=F, col=4, xlab= "((cost+subsidy)/value)*ln(MSY)", main="density plot")
 
 ###
@@ -139,3 +201,6 @@ hist(datafile$final_value, freq=F, col=4, xlab= "((cost+subsidy)/value)*ln(MSY)"
 hist(datafile$final_value,breaks=20, col=4, prob=T,  xlab= "((cost+subsidy)/value)*ln(MSY)", main="Density, Breaks=20", xlim=c(0,30))
 lines(density(datafile$final_value, na.rm=T),lwd=2, col="black")
     #error: 'x' contains missing values? (fixed by adding na.rm=T)
+
+
+
