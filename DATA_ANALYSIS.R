@@ -38,43 +38,61 @@ critical<-subset(x=datafile, subset=IUCN_codified=="6", select=final_value)
 
 ###Plots:
 
-#weird plot:
+#factor vs factor plot/spineplot:
 
-#I need to find a way to add a legend for color coding and better configure status to show increasing, not alphabetical order
-plot(x=datafile$countries, y=datafile$IUCN_status, xlab='Management Country', ylab='IUCN Status', main="Proportion of IUCN Status by Managing Country")
-legend(x=5, y=2, legend=c("Critical (CR)","Endangered (EN)", "Vulnerable (VU)","Near Threatened (NT)", "Lease Concern (LC)", "Data Deficient (DD)"))
-    #so far that legend isn't working, I'll need to figure something else out
+    #title: spineplot_country_IUCNstatus
+#trying out what I found online (source help:https://www.statmethods.net/advgraphs/layout.html   and http://www.sthda.com/english/wiki/add-legends-to-plots-in-r-software-the-easiest-way   and https://stat.ethz.ch/R-manual/R-patched/library/graphics/html/spineplot.html   and https://www.rdocumentation.org/packages/graphics/versions/3.6.0/topics/spineplot  )
+par(mfrow=c(1,2)) #set to c(1,2) for this plot
+spineplot(x=datafile$countries, y=datafile$IUCN_status, xlab='Management Country', ylab='IUCN Status', main="Proportion of Status by Country", col=c("paleturquoise4", "turquoise4", "lightseagreen","cyan3","cyan", "aquamarine"), ylevels=c("CR", "EN", "VU","NT", "LC", "DD"))
+plot.new()
+legend(x="left", cex=0.7, title="Status Code:", c("Critical (CR)","Endangered (EN)", "Vulnerable (VU)","Near Threatened (NT)", "Least Concern (LC)", "Data Deficient (DD)"), col=c("paleturquoise4", "turquoise4", "lightseagreen","cyan3","cyan", "aquamarine"), pch=15)
 
 
 #Scatterplots:
 
 #what is the "index"(the x axis)?
-plot(datafile$final_value, xlab="", ylab="((cost+subsidy)/value) * ln(MSY)", main="Bioeconomic Factor")
+    #title: scatterplot_xIndex_finalvalue
+plot(datafile$final_value, xlab="", ylab="((cost+subsidy)/value) * ln(MSY)", main="Bioeconomic Factor", col="darkcyan")
+    #title: scatterplot_xIndex_lnMSY
 plot(datafile$lnMSY, xlab="", ylab="ln(MSY)", main="ln(MSY)")
-plot(datafile$cost_value, xlab="", ylab="(cost+subsidy)/value", main="Cost Over Price")
+    #title: scatterplot_xIndex_costvalue
+plot(datafile$cost_value, xlab="", ylab="(cost+subsidy)/value", main="Cost Over Price", col="darkcyan")
+
 #this shows scatterplot of codified status and ln(MSY)
-plot(x=datafile$IUCN_codified, y=datafile$lnMSY, xlab="IUCN Status Code", ylab="ln(MSY)", main="IUCN Status Code and ln(MSY)", col="blue")
+    #title: scatterplot_IUCNcodified_lnMSY
+plot(x=datafile$IUCN_codified, y=datafile$lnMSY, xlab="IUCN Status Code", ylab="ln(MSY)", main="IUCN Status Code and ln(MSY)", col="darkcyan")
 #this shows a scatterplot of IUCN code and final_value.
-plot(x=datafile$IUCN_codified, y=datafile$final_value, xlab="IUCN Status Code", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status Code and Bioeconomic Factor", col="blue")
+    #Title: scatterplot_IUCNcodified_finalvalue
+plot(x=datafile$IUCN_codified, y=datafile$final_value, xlab="IUCN Status Code", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status Code and Bioeconomic Factor", col="darkcyan")
 
 
 #boxplots:
 
 #this shows a boxplot of country and ln(MSY)
-plot(x=datafile$countries, y=datafile$lnMSY, xlab="Management Country", ylab="ln(MSY)", main="ln(MSY) by Country Manager", col="blue")
+    #Title: boxplot_country_lnMSY
+plot(x=datafile$countries, y=datafile$lnMSY, xlab="Management Country", ylab="ln(MSY)", main="ln(MSY) by Country Manager", col="darkcyan")
 #this shows country and cost/price. Maybe not the most useful because of the range issues
-plot(x=datafile$countries, y=datafile$cost_value, xlab="Managing Country", ylab="Cost/Price", main="Cost/Price by Country", col="blue")
-#this shows IUCN status and ln(MSY). Need to reorder status for threat level.
-plot(datafile$IUCN_status, y=datafile$lnMSY, xlab="IUCN Status", ylab="ln(MSY)", main="IUCN Status andln(MSY)", col="blue")
-#Need to reorder status.
+    #Title: boxplot_country_costvalue
+plot(x=datafile$countries, y=datafile$cost_value, xlab="Managing Country", ylab="(cost+subsidy)/value)", main="Cost/Price by Country", col="darkcyan")
+
+#this works,  just need to rename the Y labels!(help from :https://stackoverflow.com/questions/9975789/multiple-boxplots-in-one-in-r  and https://www.datamentor.io/r-programming/box-plot/) and fix colors (see list I made)
+    #Title: boxplot_IUCNstatus_finalvalue
+boxplot(x=c(critical, endangered, vulnerable, near, least, deficient), y=datafile$final_value, at=c(1,2,3,4,5,6),names=c("Critical", "Endangered", "Vulnerable", "Near Treatened", "Least Concern", "Data Deficient"), xlab="IUCN Status", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status and Bioeconomic Factor",col=c("paleturquoise4", "turquoise4", "lightseagreen","cyan3","cyan", "aquamarine"))
+
+#this shows IUCN status and ln(MSY). Need to reorder status for threat level and color, see above
+    #Title: boxplot_IUCNstatus_lnMSY
+plot(datafile$IUCN_status, y=datafile$lnMSY, xlab="IUCN Status", ylab="ln(MSY)", main="IUCN Status andln(MSY)", col="darkcyan")
+
+#Need to reorder status and fix colors like above
+    #Title: boxplot_IUCNstatus_finalvalue
 plot(x=datafile$IUCN_status, y=datafile$final_value, xlab="IUCN Status", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status and Bioeconomic Factor", col="blue")
-#this works,  just need to rename the Y labels!(help from :https://stackoverflow.com/questions/9975789/multiple-boxplots-in-one-in-r  and https://www.datamentor.io/r-programming/box-plot/)
-boxplot(x=c(critical, endangered, vulnerable, near, least, deficient), y=datafile$final_value, at=c(1,2,3,4,5,6),names=c("Critical", "Endangered", "Vulnerable", "Near Treatened", "Least Concern", "Data Deficient"), xlab="IUCN Status", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status and Bioeconomic Factor", col=c("red", "orange", "yellow", "green", "blue", "purple"))
+
 
 
 #Histograms:
 
-#this is the base for the final_value histogram. Can manipulate breaks and other factos from there.The density curve isn't needed, but it adds another visual rpresentation.
+#this is the base for the final_value histogram. Can manipulate breaks and other factors from there.The density curve isn't needed, but it adds another visual representation.
+    #histogram_
 hist(datafile$final_value,breaks=20, col=4, prob=T, xlab= "((cost+subsidy)/value)*ln(MSY)", main="Density, Breaks=20", xlim=c(0,50))
 lines(density(datafile$final_value, na.rm=T),lwd=2, col="black")
 
@@ -82,10 +100,10 @@ lines(density(datafile$final_value, na.rm=T),lwd=2, col="black")
 #make CR,EN,VU,NT, LC (NO DD)
 hist(c(critical, endangered, vulnerable, near, least),breaks=20, col=4, prob=T, xlab= "((cost+subsidy)/value)*ln(MSY)", main="Density, Breaks=20", xlim=c(0,50))
 hist(vulnerable)
-    #error: x must be numeric
+    #error: x must be numeric (I think I need to make the subsets without the selection of final_value and then do status$final_value in the histogram function)
 #MAKE CR,EN,VU,NT
 #MAKE CR,EN
-
+#make VU and EN?
 #MAKE CR,EN,VU
 hist(threatened$final_value, na.rm=T, freq=F, breaks=20, xlim=c(5,35))
 lines(density(datafile$final_value, na.rm=T),lwd=2, col="black")
@@ -130,6 +148,18 @@ plot(datafile$final_value)
 #managing countries and IUCN status (plots as a cool but weird bar graph?), needs some work to be easily interpreted and understood...
     #I need to find a way to add a legend for color coding and better configure status to show increasing, not alphabetical order
 plot(x=datafile$countries, y=datafile$IUCN_status, xlab='Management Country', ylab='IUCN Status', main="Proportion of IUCN Status by Managing Country")
+#factor vs factor plot/spineplot:
+
+#I need to find a way to add a legend for color coding and better configure status to show increasing, not alphabetical order
+plot(x=datafile$countries, y=datafile$IUCN_status, xlab='Management Country', ylab='IUCN Status', main="Proportion of IUCN Status by Managing Country")
+#legend(x=5, y=2, legend=c("Critical (CR)","Endangered (EN)", "Vulnerable (VU)","Near Threatened (NT)", "Lease Concern (LC)", "Data Deficient (DD)"))
+#so far that legend isn't working, I'll need to figure something else out. the plot also goes blank if I try to change the color or the color is uniform and doesn't change by status
+#This didn't work either, x and y not same length:    plot(x=datafile$countries, y=c(critical, endangered, vulnerable, near, least, deficient), xlab='Management Country', ylab='IUCN Status', main="Proportion of IUCN Status by Managing Country")
+#trying out what I found online:
+par(mfrow=c(1,2))
+spineplot(x=datafile$countries, y=datafile$IUCN_status, xlab='Management Country', ylab='IUCN Status', main="Proportion of Status by Country", col=c("turquoise4", "turquoise3", "turquoise2", "turquoise1", "turquoise", "paleturquoise"), ylevels=c("CR", "EN", "VU","NT", "LC", "DD"))
+plot.new()
+legend(x="left", cex=0.7, title="Status Code:", c("Critical (CR)","Endangered (EN)", "Vulnerable (VU)","Near Threatened (NT)", "Least Concern (LC)", "Data Deficient (DD)"), col=c("turquoise4", "turquoise3", "turquoise2", "turquoise1", "turquoise", "paleturquoise"), pch=15)
 #country and MSY?
 plot(x=datafile$countries, y=datafile$lnMSY, xlab="Management Country", ylab="ln(MSY)", main="ln(MSY) by Country Manager")
 #country and cost/value?
