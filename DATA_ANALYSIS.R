@@ -13,6 +13,8 @@ dir()
 #read in the data file and specify the header to read at the first row you need, in the version of the datafile I used the column names start at row 1, so header=T. It was originally at row 4 because of some other rows that were included, but we won't need them for this and I went back and deleted them.
 datafile<-read.csv(file="RAM_IUCN_DATA.csv", header=T)
 
+#this data file contains the entire list of species/stocks from the RAM database... if possible...
+
 #get a look at how R is reading the data, make sure it's organized how you want
 str(datafile)
 # also type into the console or click on the new data item to open it in a view tab: view(datafile) to look at the data tables R read it
