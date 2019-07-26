@@ -42,73 +42,82 @@ critical<-subset(x=datafile, subset=IUCN_codified=="6", select=final_value)
 
 #factor vs factor plot/spineplot:
 
-    #title: spineplot_country_IUCNstatus
+    #title: IUCNspineplot_country_IUCNstatus
 #trying out what I found online (source help:https://www.statmethods.net/advgraphs/layout.html   and http://www.sthda.com/english/wiki/add-legends-to-plots-in-r-software-the-easiest-way   and https://stat.ethz.ch/R-manual/R-patched/library/graphics/html/spineplot.html   and https://www.rdocumentation.org/packages/graphics/versions/3.6.0/topics/spineplot  )
-par(mfrow=c(1,2)) #set to c(1,2) for this plot
+par(mfrow=c(1,1)) #set par(mfrow=c())to c(1,2) for this plot
 spineplot(x=datafile$countries, y=datafile$IUCN_status, xlab='Management Country', ylab='IUCN Status', main="Proportion of Status by Country", col=c("paleturquoise4", "turquoise4", "lightseagreen","cyan3","cyan", "aquamarine"), ylevels=c("CR", "EN", "VU","NT", "LC", "DD"))
 plot.new()
-legend(x="left", cex=0.7, title="Status Code:", c("Critical (CR)","Endangered (EN)", "Vulnerable (VU)","Near Threatened (NT)", "Least Concern (LC)", "Data Deficient (DD)"), col=c("paleturquoise4", "turquoise4", "lightseagreen","cyan3","cyan", "aquamarine"), pch=15)
+legend(x="left", title="Status Code:", c("Critical (CR)","Endangered (EN)", "Vulnerable (VU)","Near Threatened (NT)", "Least Concern (LC)", "Data Deficient (DD)"), col=c("paleturquoise4", "turquoise4", "lightseagreen","cyan3","cyan", "aquamarine"), pch=15, pt.cex=2)
+
+#doesn't work, try other methods barplot(x=datafile$countries, y=datafile$IUCN_status)
 
 
 #Scatterplots:
 
 #what is the "index"(the x axis)?
-    #title: scatterplot_xIndex_finalvalue
+    #title: IUCNscatterplot_xIndex_finalvalue
 plot(datafile$final_value, xlab="", ylab="((cost+subsidy)/value) * ln(MSY)", main="Bioeconomic Factor", col="darkcyan")
-    #title: scatterplot_xIndex_lnMSY
-plot(datafile$lnMSY, xlab="", ylab="ln(MSY)", main="ln(MSY)")
-    #title: scatterplot_xIndex_costvalue
+    #title: IUCNscatterplot_xIndex_lnMSY
+plot(datafile$lnMSY, xlab="", ylab="ln(MSY)", main="ln(MSY)", col="darkcyan")
+    #title: IUCNscatterplot_xIndex_costvalue
 plot(datafile$cost_value, xlab="", ylab="(cost+subsidy)/value", main="Cost Over Price", col="darkcyan")
 
 #this shows scatterplot of codified status and ln(MSY)
-    #title: scatterplot_IUCNcodified_lnMSY
+    #title: IUCNscatterplot_IUCNcodified_lnMSY
 plot(x=datafile$IUCN_codified, y=datafile$lnMSY, xlab="IUCN Status Code", ylab="ln(MSY)", main="IUCN Status Code and ln(MSY)", col="darkcyan")
 #this shows a scatterplot of IUCN code and final_value.
-    #Title: scatterplot_IUCNcodified_finalvalue
+    #Title: IUCNscatterplot_IUCNcodified_finalvalue
 plot(x=datafile$IUCN_codified, y=datafile$final_value, xlab="IUCN Status Code", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status Code and Bioeconomic Factor", col="darkcyan")
+
+    #title: IUCNscatterplot_lnMSY_costvalue
+plot(x=datafile$lnMSY, y=datafile$cost_value, ylab="(cost+subsidy)/value)", xlab="ln(MSY)", main="", col="darkcyan", cex.axis=1.5, cex.lab=2)
+
+    #title: IUCNscatterplot_costvalue_IUCNcodified
+plot(x=datafile$cost_value, y=datafile$IUCN_codified, xlab="(cost+subsidy)/value)", ylab="IUCN Status Code", col="darkcyan", main="", cex.axis=1.5, cex.lab=2)
+    
+    #title: IUCNscatterplot_finalvalue_IUCNcodified
+plot(x=datafile$final_value, y=datafile$IUCN_codified, xlab="((cost+subsidy)/value) * ln(MSY)", ylab="IUCN Status Code", col="darkcyan", cex.axis=1.5, cex.lab=2)
+
 
 
 #boxplots:
 
 #this shows a boxplot of country and ln(MSY)
-    #Title: boxplot_country_lnMSY
+    #Title: IUCNboxplot_country_lnMSY
 plot(x=datafile$countries, y=datafile$lnMSY, xlab="Management Country", ylab="ln(MSY)", main="ln(MSY) by Country Manager", col="darkcyan")
 #this shows country and cost/price. Maybe not the most useful because of the range issues
-    #Title: boxplot_country_costvalue
+    #Title: IUCNboxplot_country_costvalue
 plot(x=datafile$countries, y=datafile$cost_value, xlab="Managing Country", ylab="(cost+subsidy)/value)", main="Cost/Price by Country", col="darkcyan")
 
 #this works,  just need to rename the Y labels!(help from :https://stackoverflow.com/questions/9975789/multiple-boxplots-in-one-in-r  and https://www.datamentor.io/r-programming/box-plot/) and fix colors (see list I made)
-    #Title: boxplot_IUCNstatus_finalvalue
+    #Title: IUCNboxplot_IUCNstatus_finalvalue
 boxplot(x=c(critical, endangered, vulnerable, near, least, deficient), y=datafile$final_value, at=c(1,2,3,4,5,6),names=c("Critical", "Endangered", "Vulnerable", "Near Treatened", "Least Concern", "Data Deficient"), xlab="IUCN Status", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status and Bioeconomic Factor",col=c("paleturquoise4", "turquoise4", "lightseagreen","cyan3","cyan", "aquamarine"))
 
 #this shows IUCN status and ln(MSY). Need to reorder status for threat level and color, see above
-    #Title: boxplot_IUCNstatus_lnMSY
-plot(datafile$IUCN_status, y=datafile$lnMSY, xlab="IUCN Status", ylab="ln(MSY)", main="IUCN Status andln(MSY)", col="darkcyan")
+    #Title: IUCNboxplot_IUCNstatus_lnMSY
+plot(datafile$IUCN_status, y=datafile$lnMSY, xlab="IUCN Status", ylab="ln(MSY)", main="IUCN Status and ln(MSY)", col="darkcyan")
 
 #Need to reorder status and fix colors like above
-    #Title: boxplot_IUCNstatus_finalvalue
-plot(x=datafile$IUCN_status, y=datafile$final_value, xlab="IUCN Status", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status and Bioeconomic Factor", col="blue")
+    #Title: IUCNboxplot_IUCNstatus_finalvalue
+plot(x=datafile$IUCN_status, y=datafile$final_value, xlab="IUCN Status", ylab="((cost+subsidy)/value) * ln(MSY)", main="IUCN Status and Bioeconomic Factor", col="darkcyan")
 
 
 
 #Histograms:
 
 #this is the base for the final_value histogram. Can manipulate breaks and other factors from there.The density curve isn't needed, but it adds another visual representation.
-    #histogram_
-hist(datafile$final_value,breaks=20, col=4, prob=T, xlab= "((cost+subsidy)/value)*ln(MSY)", main="Density, Breaks=20", xlim=c(0,50))
-lines(density(datafile$final_value, na.rm=T),lwd=2, col="black")
+    #title: IUCNhistogram_finalvalue_10b
+hist(datafile$final_value,breaks=c(5, 10,15,20,25,30,35,40, 45), col="darkcyan", freq=T, xlab= "((cost+subsidy)/value)*ln(MSY)", main="", xlim=c(0,50), cex.axis=2, cex.lab=2)
+IUCNhistinfo<-hist(datafile$final_value)
 
-#Histograms to make, try different breaks:
-#make CR,EN,VU,NT, LC (NO DD)
-hist(c(critical, endangered, vulnerable, near, least),breaks=20, col=4, prob=T, xlab= "((cost+subsidy)/value)*ln(MSY)", main="Density, Breaks=20", xlim=c(0,50))
-hist(vulnerable)
-    #error: x must be numeric (I think I need to make the subsets without the selection of final_value and then do status$final_value in the histogram function)
-#MAKE CR,EN,VU,NT
-#MAKE CR,EN
-#make VU and EN?
-#MAKE CR,EN,VU
-hist(threatened$final_value, na.rm=T, freq=F, breaks=20, xlim=c(5,35))
-lines(density(datafile$final_value, na.rm=T),lwd=2, col="black")
+    #lines(density(datafile$final_value, na.rm=T),lwd=2, col="black")
+
+    #title: IUCNhistogram_threatenedfinalvalue_10b
+hist(threatened$final_value, main="", na.rm=T, freq=T, breaks=c(5,10,15,20,25,30,35,40, 45), col="darkcyan", xlim=c(0, 50),cex.axis=2, cex.lab=2)
+threathistinfo<-hist(threatened$final_value)
+
+
+    #lines(density(datafile$final_value, na.rm=T),lwd=2, col="black")
 
 
 #################################################Practice, might not be used
@@ -265,5 +274,13 @@ hist(datafile$final_value,breaks=20, col=4, prob=T,  xlab= "((cost+subsidy)/valu
 lines(density(datafile$final_value, na.rm=T),lwd=2, col="black")
     #error: 'x' contains missing values? (fixed by adding na.rm=T)
 
-
+#Histograms to make, try different breaks:
+#make CR,EN,VU,NT, LC (NO DD)
+#hist(c(critical, endangered, vulnerable, near, least),breaks=20, col="darkcyan", prob=T, xlab= "((cost+subsidy)/value)*ln(MSY)", main="Density, Breaks=20", xlim=c(0,50))
+#hist(vulnerable)
+    #error: x must be numeric (I think I need to make the subsets without the selection of final_value and then do status$final_value in the histogram function)
+#MAKE CR,EN,VU,NT
+#MAKE CR,EN
+#make VU and EN?
+#MAKE CR,EN,VU
 
