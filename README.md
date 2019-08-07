@@ -9,6 +9,9 @@ File Descriptions:
 Alternate_Stable_States_Conservation__EdTekwa.pdf
 -   My mentor, Ed Tekwa, wrote this paper in PNAS which inspired this project. My is a continuation of the ideas from this paper, but more focused on comparing stock data and known extinction risk.
 
+Copy of PreliminaryDataSheet.xlsx
+-   This is the product, the database coupling economic and ecological factors. One sheet contains the cost regions, one contains all the combined data, another is for notes, and another was used as a landing spot for adding the IUCN status stocks.
+
 DATA_ANALYSIS.R
 -   This file is where most of the data analysis was done. There was a lot of trial and error in the process, so the plots and necessary code were moved to the top. As you work your way to the bottom of the code it becomes less relevant to the final product and more about different versions of used plots or simply trial and error early plots.
 
