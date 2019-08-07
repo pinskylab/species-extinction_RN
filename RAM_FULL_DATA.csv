@@ -1,0 +1,629 @@
+stockid,areaid,stocklong,countries,region,cost_value,MSYbest,lnMSY,final_value,IUCNstatus
+ACADRED2J3K,Canada-DFO-2J3K,Acadian redfish NAFO-2J3K,Canada,Canada,0.85047205,3000,14.91412285,12.68404463,NS
+ACADRED3LNO-UT12,Canada-DFO-3LNO-UT12,Acadian redfish Units 1-2 and NAFO-3LNO,Canada,Canada,0.85047205,116000,18.56910075,15.79250118,NS
+ACADREDGOMGB,USA-NMFS-5YZ,Acadian redfish Gulf of Maine / Georges Bank,USA,USA,0.895502963,10466,16.16364247,14.47458973,NS
+ACADREDUT3,Canada-DFO-UT3,Acadian redfish Unit 3,Canada,Canada,0.85047205,131000,18.69070788,15.89592464,NS
+ACMACKSARG,Argentina-CFP-ARG-S,Argentine chub mackerel Southern Argentina,Argentina,Argentina,1.349326297,NA,NA,NA,NS
+ALBAIO,multinational-IOTC-IO,Albacore tuna Indian Ocean,multinational,Indian Ocean,2.05607134,38800,17.4739308,35.92764833,NT
+ALBAMED,multinational-ICCAT-MED,Albacore tuna Mediterranean,multinational,Mediterranean-Black Sea,1.527982791,28900,17.17935215,26.24975446,NT
+ALBANATL,multinational-ICCAT-NATL,Albacore tuna North Atlantic,multinational,North Atlantic,1.684328499,36650,17.41692399,29.33582144,NT
+ALBANPAC,multinational-ISC-NPAC,Albacore tuna North Pacific,multinational,North Pacific,1.272890706,105571,18.47489427,23.5165212,NT
+ALBASATL,multinational-ICCAT-SATL,Albacore tuna South Atlantic,multinational,South Atlantic,1.792744301,25147.5,17.04026905,30.54884521,NT
+ALBASPAC,multinational-WCPFC-SPAC,Albacore tuna South Pacific Ocean,multinational,South Pacific,1.011341647,76800,18.1567152,18.36264226,NT
+ALPLAICBSAI,USA-NMFS-BSAI,Alaska plaice Bering Sea and Aleutian Islands,USA,USA,0.895502963,NA,NA,NA,NS
+ALSKABSAI,USA-NMFS-BSAI,Alaska skate Bering Sea and Aleutian Islands,USA,USA,0.895502963,NA,NA,NA,NS
+AMPL3LNO,multinational-NAFO-3LNO,American Plaice NAFO-3LNO,multinational,Canada East Coast,1.478433277,NA,NA,NA,NS
+AMPL3M,multinational-NAFO-3M,American Plaice NAFO-3M,multinational,Canada East Coast,1.478433277,NA,NA,NA,NS
+AMPL4T,Canada-DFO-4T,American plaice Southern Gulf of St. Lawrence,Canada,Canada,0.85047205,NA,NA,NA,NS
+AMPL4VWX,Canada-DFO-4VWX,American plaice Scotian Shelf and Bay of Fundy,Canada,Canada,0.85047205,5113,15.44729687,13.13749424,NS
+AMPL5YZ,USA-NMFS-5YZ,American Plaice NAFO-5YZ,USA,USA,0.895502963,2675,14.79945994,13.25296023,NS
+ANCHIXa,multinational-ICES-IXa,Anchovy Portugese Waters -East,multinational,European Union,2.038476184,NA,NA,NA,LC
+ANCHMEDGSA1,multinational-GFCM-GSA1,Anchovy Northern Alboran Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,LC
+ANCHMEDGSA16,multinational-GFCM-GSA16,Anchovy South of Sicily,multinational,Mediterranean-Black Sea,1.527982791,2359,14.67374836,22.42123498,LC
+ANCHMEDGSA17-18,multinational-GFCM-GSA17-18,Anchovy Adriatic Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,LC
+ANCHMEDGSA29,multinational-GFCM-GSA29,Anchovy Black Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,LC
+ANCHMEDGSA6,multinational-GFCM-GSA6,Anchovy Northern Spain,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,LC
+ANCHMEDGSA9,multinational-GFCM-GSA9,Anchovy Ligurian and North Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,LC
+ANCHOBAYB,multinational-ICES-VIII,Anchovy ICES VIII,multinational,European Union,2.038476184,NA,NA,NA,LC
+ANCHOSA,South Africa-DETMCM-SA,Anchovy South Africa,South Africa,South Africa,1.91096113,NA,NA,NA,LC
+ANCHOVYKILKACS,Iran-Iran-CS,Anchovy kilka Caspian Sea,Iran,Iran,0.699754489,44652,17.61440966,12.32576223,NS
+ANGLMEDGSA15-16,multinational-GFCM-GSA15-16,Black Bellied Angler Malta Island and South of Sicily,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+ANGLMEDGSA5,multinational-GFCM-GSA5,Black bellied angler Balearic Island,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+ANGLMEDGSA6,multinational-GFCM-GSA6,Black bellied angler Northern Spain,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+ANGLMEDGSA7,multinational-GFCM-GSA7,Black bellied angler Gulf of Lions,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+APOLLNEMS,Japan-FAJ-NEMS,Walleye pollock Nemuro Strait,Japan,Russia Japan,1.025237182,NA,NA,NA,NS
+APOLLNSJ,Japan-FAJ-NSJ,Walleye pollock Sea of Japan North,Japan,Russia Japan,1.025237182,45206.50965,17.62675165,18.07160119,NS
+APOLLOKS,Japan-FAJ-OKS,Walleye pollock Okhotsk Sea,Japan,Russia Japan,1.025237182,NA,NA,NA,NS
+APOLLPJPN,Japan-FAJ-PJPN,Walleye pollock Pacific Coast of Japan,Japan,Russia Japan,1.025237182,176347.6986,18.98796816,19.46717097,NS
+ARCSURFGB,Canada-DFO-3LNO,Arctic surfclam Grand Bank,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+ARFLOUNDBSAI,USA-NMFS-BSAI,Arrowtooth flounder Bering Sea and Aleutian Islands,USA,US Alaska,0.895502963,NA,NA,NA,NS
+ARFLOUNDGA,USA-NMFS-GA,Arrowtooth flounder Gulf of Alaska,USA,US Alaska,0.895502963,254271,19.35391119,17.33148482,NS
+ARFLOUNDPCOAST,USA-NMFS-PCOAST,Arrowtooth flounder Pacific Coast,USA,US West Coast,0.895502963,5844,15.58092605,13.95276545,NS
+ARGANCHONARG,Argentina-CFP-ARG-N,Argentine anchoita Northern Argentina,Argentina,South America,1.349326297,222163,19.2189219,25.93259673,NT
+ARGANCHOSARG,Argentina-CFP-ARG-S,Argentine anchoita Southern Argentina,Argentina,South America,1.349326297,454000,19.93360776,26.89694114,NT
+ARGHAKENARG,Argentina-CFP-ARG-N,Argentine hake Northern Argentina,Argentina,South America,1.349326297,NA,NA,NA,NS
+ARGHAKESARG,Argentina-CFP-ARG-S,Argentine hake Southern Argentina,Argentina,South America,1.349326297,NA,NA,NA,NS
+ATBTUNAEATL,multinational-ICCAT-EATL,Bluefin tuna Eastern Atlantic,multinational,E Atlantic Ocean,2.183111075,40252.1,17.51067273,38.22774357,NS
+ATBTUNAWATL,multinational-ICCAT-WATL,Bluefin tuna Western Atlantic,multinational,W Atlantic Ocean,1.162066017,5233.41,15.47057363,17.97782788,NS
+ATHAL3NOPs4VWX5Zc,Canada-DFO-3NOPs4VWX5Zc,Atlantic halibut Scotian Shelf and Southern Grand Banks,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+ATHAL5YZ,USA-NMFS-5YZ,Atlantic Halibut NAFO-5YZ,USA,US East Coast,0.895502963,3500,15.06827353,13.4936836,NS
+ATKABSAI,USA-NMFS-BSAI,Atka mackerel Bering Sea and Aleutian Islands,USA,US Alaska,0.895502963,NA,NA,NA,NS
+ATLCROAKMATLC,USA-NMFS-MATLC,Atlantic croaker Mid-Atlantic Coast,USA,US East Coast,0.895502963,NA,NA,NA,NS
+ATOOTHFISHRS,multinational-CCAMLR-RS,Antarctic toothfish Ross Sea,multinational,Antarctic,1.457668222,3105.3982,14.94865251,21.79017573,NS
+AUROCKPCOAST,USA-NMFS-PCOAST,Aurora rockfish Pacific Coast,USA,US West Coast,0.895502963,72,11.1844214,10.01568251,NS
+AUSSALMONNZ,New Zealand-MFish-NZ,Australian salmon New Zealand,New Zealand,New Zealand,1.048024352,3371.82,15.03096322,15.75281548,NS
+AWOLF5YZ,USA-NMFS-5YZ,Atlantic wolffish Gulf of Maine / Georges Bank,USA,US East Coast,0.895502963,244,12.4049235,11.10864576,NS
+BCRABCHESB,USA-MDSTATE-CHESB,Blue Crab Chesapeake Bay,USA,US East Coast,0.895502963,NA,NA,NA,NS
+BGRDRNSWWA,Australia-AFMA-NSWWA,Blue grenadier New South Wales to Western Australia,Australia,Australia,1.193009991,4491.953438,15.31779823,18.27428632,NS
+BGROCKPCOAST,USA-NMFS-PCOAST,Blackgill rockfish  Pacific Coast,USA,US West Coast,0.895502963,222,12.31043266,11.02402893,NS
+BHEADSHARATL,USA-NMFS-ATL,Bonnethead shark Atlantic,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,NS
+BIGEYEATL,multinational-ICCAT-ATL,Bigeye tuna Atlantic,multinational,Atlantic Ocean,1.749116527,92000,18.33729914,32.07407298,VU
+BIGEYECWPAC,multinational-WCPFC-CWPAC,Bigeye tuna Central Western Pacific,multinational,CW Pacific Ocean,1.007149874,108520,18.50244505,18.63473519,VU
+BIGEYEEPAC,multinational-IATTC-EPAC,Bigeye tuna Eastern Pacific,multinational,E Pacific Ocean,1.105578368,106201,18.48084408,20.43202143,VU
+BIGEYEIO,multinational-IOTC-IO,Bigeye tuna Indian Ocean,multinational,Indian Ocean,2.05607134,104000,18.45990146,37.95487433,NS
+BIGHTREDSE,Australia-AFMA-SE,Bight redfish Southeast Australia,Australia,Australia,1.193009991,624.7468834,13.34510186,15.92083985,NS
+BIGSKA5CDE,Canada-DFO-HS,Big skate Hecate Strait,Canada,Canada West Coast,0.85047205,351,12.7685415,10.85928766,NS
+BKCDLFENI,New Zealand-MFish-ENI,Black cardinalfish East coast of North Island,New Zealand,New Zealand,1.048024352,666,13.40904495,14.05300564,LC
+BKINGCRABPI,USA-NMFS-PI,Blue king crab Pribilof Islands,USA,US Alaska,0.895502963,NA,NA,NA,NS
+BKINGCRABSMI,USA-NMFS-SMI,Blue king crab Saint Matthews Island,USA,US Alaska,0.895502963,NA,NA,NA,NS
+BLACKGROUPERGMSATL,USA-NMFS-GMSATL,Black Grouper Gulf of Mexico and South Atlantic,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,NS
+BLACKOREOPR,New Zealand-MFish-PR,Black Oreo Pukaki Rise,New Zealand,New Zealand,1.048024352,670,13.41503299,14.05928126,NS
+BLACKOREOWECR,New Zealand-MFish-WECR,Black oreo West end of Chatham Rise,New Zealand,New Zealand,1.048024352,1947,14.48180028,15.17727936,NS
+BLACKROCKCAL,USA-NMFS-CAL,Black rockfish California,USA,US West Coast,0.895502963,343,12.74548573,11.41362024,NS
+BLACKROCKORECOAST,USA-NMFS-ORECOAST,Black rockfish Oregon,USA,US West Coast,0.895502963,518,13.15773052,11.78278667,NS
+BLACKROCKWASH,USA-NMFS-WASH,Black rockfish Washington,USA,US West Coast,0.895502963,NA,NA,NA,NS
+BLINGVb-VI-VII,multinational-ICES-Vb-VI-VII,Blue ling Vb-VI-VII,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+BLKMARLINIO,multinational-IOTC-IO,Black marlin Indian Ocean,multinational,Indian Ocean,2.05607134,8605,15.96785399,32.83104695,DD
+BLSHARNPAC,multinational-ISC-NPAC,Blue shark North Pacific,multinational,N Pacific Ocean,1.272890706,72123,18.09388355,23.0315362,NT
+BLTILESATLC,USA-NMFS-SATLC,Blueline tilefish Southern Atlantic coast,USA,US Southeast and Gulf,0.895502963,102.7512886,11.54006667,10.3341639,NS
+BLUEFISHATLC,USA-NMFS-ATLC,Bluefish Atlantic Coast,USA,US East Coast,0.895502963,13967,16.45220796,14.73300099,VU
+BLUEROCKCAL,USA-NMFS-CAL,Blue rockfish California,USA,US West Coast,0.895502963,275,12.52452638,11.21575049,NS
+BMACKECS,Japan-FAJ-ECS,Spotted mackerel East China Sea,Japan,Russia Japan,1.025237182,54757.32305,17.81842167,18.26810842,LC
+BMACKPJPN,Japan-FAJ-PJPN,Spotted mackerel Pacific Coast of Japan,Japan,Russia Japan,1.025237182,145655.7838,18.79675675,19.27113392,LC
+BMARLINATL,multinational-ICCAT-ATL,Blue marlin Atlantic,multinational,Atlantic Ocean,1.749116527,2000,14.50865774,25.37733303,VU
+BMARLINIO,multinational-IOTC-IO,Indo-Pacific blue marlin Indian Ocean,multinational,Indian Ocean,2.05607134,9524,16.06932549,33.03967959,DD
+BMARLINPAC,multinational-ISC-PAC,Blue marlin Pacific Ocean,multinational,Pacific Ocean,1.250825983,19459,16.78382025,20.99363846,VU
+BNOSESHARATL,USA-NMFS-ATL,Blacknose shark Atlantic,USA,US Southeast and Gulf,0.895502963,89.415,11.40104373,10.20966845,NS
+BNSNZ,New Zealand-MFish-NZ,Bluenose New Zealand,New Zealand,New Zealand,1.048024352,1209,14.00530413,14.67789979,NS
+BOCACCBCW,Canada-DFO-BCW,Bocaccio British Columbia Waters,Canada,Canada West Coast,0.85047205,NA,NA,NA,NS
+BOCACCSPCOAST,USA-NMFS-SPCOAST,Bocaccio Southern Pacific Coast,USA,US West Coast,0.895502963,1347,14.11339046,12.63858298,NS
+BRMSOJ,Japan-FAJ-SOJ,Yellow sea bream Sea of Japan,Japan,Russia Japan,1.025237182,NA,NA,NA,NS
+BRNROCKPCOAST,USA-NMFS-PCOAST,Brown rockfish Pacific Coast,USA,US West Coast,0.895502963,149.9,11.91772368,10.67235688,NS
+BRNSHRIMPGM,USA-NMFS-GM,Brown shrimp Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,NS
+BSBASSMATLC,USA-NMFS-MATLC,Black sea bass Mid-Atlantic Coast,USA,US East Coast,0.895502963,3284,15.00457275,13.43663936,LC
+BSBASSSATL,USA-NMFS-SATL,Black sea bass South Atlantic,USA,US Southeast and Gulf,0.895502963,807.394472,13.60156764,12.18024413,LC
+BSQLOBSTERCSCH,Chile-SUBPESCA-CH-CS,Yellow squat lobster Central-Southern Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+BSQLOBSTERNCH,Chile-SUBPESCA-CH-N,Yellow squat lobster Northern Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+BTIPSHARATL,USA-NMFS-ATL,Blacktip shark Atlantic,USA,US Southeast and Gulf,0.895502963,14900,16.51687177,14.79090762,NS
+BTIPSHARGM,USA-NMFS-GM,Blacktip shark Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,NS
+BUTTERGOMCHATT,USA-NMFS-5YCHATT,Atlantic butterfish Gulf of Maine / Cape Hatteras,USA,US East Coast,0.895502963,NA,NA,NA,NS
+BWHITMEDGSA1,multinational-GFCM-GSA1,Blue whiting Northern Alboran Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+BWHITMEDGSA6,multinational-GFCM-GSA6,Blue whiting Northern Spain,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+BWHITMEDGSA9,multinational-GFCM-GSA9,Blue whiting Ligurian and North Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+BWHITNEA,multinational-ICES-I-II-III-IV-V-VI-VII-VIII-IX-XII-XIV,Blue Whiting Northeast Atlantic,multinational,European Union,2.038476184,NA,NA,NA,NS
+CABEZNCAL,USA-NMFS-NCAL,Cabezon Northern California,USA,US West Coast,0.895502963,129,11.76756768,10.53789173,NS
+CABEZORECOAST,USA-NMFS-ORECOAST,Cabezon Oregon Coast,USA,US West Coast,0.895502963,48,10.77895629,9.6525873,NS
+CABEZSCAL,USA-NMFS-SCAL,Cabezon Southern California,USA,US West Coast,0.895502963,30,10.30895266,9.231697658,NS
+CALSCORPSCAL,USA-NMFS-SCAL,California scorpionfish Southern California,USA,US West Coast,0.895502963,127,11.75194237,10.52389921,LC
+CAPEIIa-V-XIV,multinational-ICES-IIa-V-XIV,Capelin IIa-V-XIV,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+CAPENOR,multinational-ICES-I,Capelin Barents Sea,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+CHAKESA,South Africa-DETMCM-SA,Shallow-water cape hake South Africa,South Africa,South Africa,1.91096113,62800,17.95546563,34.31219689,NS
+CHILISPCOAST,USA-NMFS-SPCOAST,Chilipepper Southern Pacific Coast,USA,US West Coast,0.895502963,2133,14.57304,13.0502005,NS
+CHMACKWA,multinational-FAO-WA,Cunene Horse Mackerel West Africa,multinational,West Africa,2.595856662,NA,NA,NA,NS
+CHROCKCPCOAST,USA-NMFS-CPCOAST,China rockfish Central Pacific Coast,USA,US West Coast,0.895502963,15.7,9.661415991,8.651826651,NS
+CHROCKNPCOAST,USA-NMFS-NPCOAST,China rockfish Northern Pacific Coast,USA,US West Coast,0.895502963,NA,NA,NA,NS
+CHROCKSPCOAST,USA-NMFS-SPCOAST,China rockfish Southern Pacific Coast,USA,US West Coast,0.895502963,21.1,9.957028319,8.916548367,NS
+CHSQUIDSA,South Africa-DETMCM-SA,Cape Hope squid South Africa,South Africa,South Africa,1.91096113,NA,NA,NA,NS
+CHTRACCH,multinational-SPRFMO-CH,Chilean jack mackerel Chilean EEZ and offshore,multinational,South America,1.125724334,NA,NA,NA,NS
+CMACKPCOAST,USA-NMFS-PCOAST,Pacific chub mackerel Pacific Coast,USA,US West Coast,0.895502963,23048.2,16.95309823,15.18154971,LC
+CMACKPJPN,Japan-FAJ-PJPN,Chub mackerel Pacific Coast of Japan,Japan,Russia Japan,1.025237182,355290.851,19.68844731,20.18532823,LC
+CMACKTSST,Japan-FAJ-TSST,Chub mackerel Tsushima Strait,Japan,Russia Japan,1.025237182,325542.1507,19.60100251,20.09567657,LC
+CMACKWA,multinational-FAO-WA,Chub Mackerel West Africa,multinational,West Africa,2.595856662,NA,NA,NA,LC
+COBGM,USA-NMFS-GM,Cobia Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,1208,14.00447666,12.54105035,NS
+COBSATLC,USA-NMFS-SATLC,Cobia Southern Atlantic coast,USA,US Southeast and Gulf,0.895502963,366.502336,12.81176017,11.4729692,NS
+COD1IN,multinational-ICES-1IN,Atlantic cod NAFO Subarea 1 (inshore),multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+COD2J3KL,Canada-DFO-2J3KL,Atlantic cod NAFO 2J3KL,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+COD4TVn,Canada-DFO-4T,Atlantic cod NAFO 4TVn,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+COD4X5Yb,Canada-DFO-4X5Yb,"Atlantic cod Western Scotian Shelf, Bay of Fundy and Gulf of Maine",Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+COD5Zjm,Canada-DFO-5Zjm,Atlantic cod NAFO 5Zjm,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+CODBA2224,multinational-ICES-22-24,Atlantic cod Baltic Areas 22 and 24,multinational,European Union,2.038476184,23000,16.95100477,34.55421953,NS
+CODBA2532,multinational-ICES-25-32,Atlantic cod Baltic Areas 25-32,multinational,European Union,2.038476184,NA,NA,NA,NS
+CODFAPL,multinational-ICES-Vb1,Atlantic cod Faroe Plateau,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+CODGB,USA-NMFS-5Z,Atlantic cod Georges Bank,USA,US East Coast,0.895502963,28774,17.17498276,15.38024796,NS
+CODGOM,USA-NMFS-5Y,Atlantic cod Gulf of Maine,USA,US East Coast,0.895502963,10043,16.12238643,14.43764483,NS
+CODICE,multinational-ICES-Va,Atlantic cod Iceland,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+CODIf-XIV,multinational-ICES-If-XIV,Atlantic cod ICES If-XIV,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+CODIIIaW-IV-VIId,multinational-ICES-IIIaW-IV-VIId,Atlantic cod IIIa (west) and IV-VIId,multinational,European Union,2.038476184,NA,NA,NA,NS
+CODIS,multinational-ICES-VIIa,Atlantic cod Irish Sea,multinational,European Union,2.038476184,NA,NA,NA,NS
+CODKAT,multinational-ICES-IIIa,Atlantic cod Kattegat,multinational,European Union,2.038476184,NA,NA,NA,NS
+CODNEAR,multinational-ICES-I-II,Atlantic cod Northeast Arctic,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+CODNEARNCW,multinational-ICES-I-II-NCW,Atlantic cod Northeast Arctic (Norwegian coastal waters),multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+CODVIa,multinational-ICES-VIa,Atlantic cod West of Scotland,multinational,European Union,2.038476184,NA,NA,NA,NS
+CODVIIek,multinational-ICES-VIIe-k,Atlantic Cod Celtic Sea,multinational,European Union,2.038476184,10300,16.14765445,32.91660903,NS
+COWCODSCAL,USA-NMFS-SCAL,Cowcod Southern California,USA,US West Coast,0.895502963,69,11.14186178,9.977570245,NS
+CPANDMEDGSA15-16,multinational-GFCM-GSA15-16,Common pandora Malta Island and South of Sicily,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+CPANDMEDGSA9,multinational-GFCM-GSA9,Common pandora Ligurian and North Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+CPRROCKPCOAST,USA-NMFS-PCOAST,Copper rockfish Pacific Coast,USA,US West Coast,0.895502963,196.97,12.19080671,10.91690354,NS
+CRLOBSTERSA12,South Africa-DETMCM-1-2,West coast rock lobster South Africa Areas 1-2,South Africa,South Africa,1.91096113,NA,NA,NA,NS
+CRLOBSTERSA34,South Africa-DETMCM-3-4,West coast rock lobster South Africa Areas 3-4,South Africa,South Africa,1.91096113,NA,NA,NA,NS
+CRLOBSTERSA56,South Africa-DETMCM-5-6,West coast rock lobster South Africa Areas 5-6,South Africa,South Africa,1.91096113,NA,NA,NA,NS
+CRLOBSTERSA7,South Africa-DETMCM-7,West coast rock lobster South Africa Area 7,South Africa,South Africa,1.91096113,NA,NA,NA,NS
+CRLOBSTERSA8,South Africa-DETMCM-8,West coast rock lobster South Africa Area 8,South Africa,South Africa,1.91096113,NA,NA,NA,NS
+CROCKPCOAST,USA-NMFS-PCOAST,Canary rockfish Pacific Coast,USA,US West Coast,0.895502963,1226,14.0192674,12.5542955,NS
+CROCKWCVANISOGQCI,Canada-DFO-WCVANI-SOG-QCI,Canary rockfish West Coast of Vancouver Island and Straight of Georgia and Queen Charlotte Islands,Canada,Canada West Coast,0.85047205,713.7922747,13.47834727,11.46295763,NS
+CSARDCSCH,Chile-SUBPESCA-CH-CS,Chilean sardine Central-Southern Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+CTRACSA,South Africa-DETMCM-SASC,Cape horse mackerel South Africa South coast,South Africa,South Africa,1.91096113,72924.09,18.1049296,34.59781672,LC
+CUSK4X,Canada-DFO-4X,Cusk NAFO 4X,Canada,Canada East Coast,0.85047205,1482.925,14.20952705,12.08480559,NS
+CUSKVa-XIV,multinational-ICES-Va-XIV,Tusk Va and XIV,multinational,European Union,2.038476184,NA,NA,NA,NS
+DEEPCHAKESA,South Africa-DETMCM-SA,Deep-water cape hake South Africa,South Africa,South Africa,1.91096113,118900,18.59379336,35.53201637,NS
+DEEPFLATHEADSE,Australia-AFMA-SE,Deepwater flathead Southeast Australia,Australia,Australia,1.193009991,1200.123574,13.99793509,16.69967641,NS
+DKROCKPCOAST,USA-NMFS-PCOAST,Darkblotched rockfish Pacific Coast,USA,US West Coast,0.895502963,674,13.42098539,12.01853219,NS
+DOYSFS,New Zealand-MFish-FS,Dredge oyster Foveax Strait,New Zealand,New Zealand,1.048024352,NA,NA,NA,NS
+DSKSHARGMATL,USA-NMFS-GMATL,Dusky shark Gulf of Mexico and Atlantic,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,NS
+DSOLEGA,USA-NMFS-GA,Dover sole Gulf of Alaska,USA,US Alaska,0.895502963,NA,NA,NA,NS
+DSOLEPCOAST,USA-NMFS-PCOAST,Dover sole Pacific Coast,USA,US West Coast,0.895502963,34757,17.36389155,15.54941634,NS
+DUSROCKGA,USA-NMFS-GA,Dusky rockfish Gulf of Alaska,USA,US Alaska,0.895502963,NA,NA,NA,NS
+EBASSIVbc-VII,multinational-ICES-IVbc-VII,European seabass IVbc and VII,multinational,European Union,2.038476184,NA,NA,NA,NS
+ESOLEHS,Canada-DFO-HS,English sole Hecate Strait,Canada,Canada West Coast,0.85047205,NA,NA,NA,NS
+ESOLEPCOAST,USA-NMFS-PCOAST,English sole Pacific Coast,USA,US West Coast,0.895502963,3875,15.17005622,13.5848303,NS
+EULAPCOASTFRDU,Canada-DFO-PCOASTFRDU,Eulachon Pacific Coast of Canada Fraser River DU,Canada,Canada West Coast,0.85047205,112,11.62625415,9.887804198,NS
+FLSOLEBSAI,USA-NMFS-BSAI,Flathead sole Bering Sea and Aleutian Islands,USA,US Alaska,0.895502963,83321,18.23821118,16.33237216,NS
+FLSOLEGA,USA-NMFS-GA,Flathead sole Gulf of Alaska,USA,US Alaska,0.895502963,NA,NA,NA,NS
+FMEG8c9a,multinational-ICES-VIIIc-IXa,Fourspotted megrim ICES VIIIc-IXa,multinational,European Union,2.038476184,NA,NA,NA,NS
+FTOOTHSHARATL,USA-NMFS-ATL,Finetooth shark Atlantic,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,NS
+GAGGM,USA-NMFS-GM,Gag Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,VU
+GAGSATLC,USA-NMFS-SATLC,Gag Southern Atlantic coast,USA,US Southeast and Gulf,0.895502963,425.5603897,12.96116214,11.60675911,VU
+GEMFISHNZ,New Zealand-MFish-NZ,common gemfish New Zealand,New Zealand,New Zealand,1.048024352,1432.042733,14.17461247,14.85533905,NS
+GEMFISHSE,Australia-AFMA-SE,common gemfish Southeast Australia,Australia,Australia,1.193009991,NA,NA,NA,NS
+GFORKBMEDGSA9,multinational-GFCM-GSA9,Greater forkbeard Ligurian and North Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+GHAL01ABCDEF,multinational-NAFO-01ABCDEF,Greenland halibut NAFO 01ABCDEF,multinational,Canada East Coast,1.478433277,NA,NA,NA,NS
+GHAL23KLMNO,multinational-NAFO-23KLMNO,Greenland halibut NAFO 23KLMNO,multinational,Canada East Coast,1.478433277,NA,NA,NA,NS
+GHALBSAI,USA-NMFS-BSAI,Greenland turbot Bering Sea and Aleutian Islands,USA,US Alaska,0.895502963,NA,NA,NA,NS
+GHALNEAR,multinational-ICES-I-II,Greenland halibut Northeast Arctic,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+GOLDREDNEAR,multinational-ICES-I-II,Golden Redfish Northeast Arctic,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+GOLDREDV-VI-XII-XIV,multinational-ICES-V-VI-XII-XIV,Golden Redfish V-VI-XII-XIV,multinational,European Union,2.038476184,NA,NA,NA,NS
+GOPHERSPCOAST,USA-NMFS-SPCOAST,Gopher rockfish Southern Pacific Coast,USA,US West Coast,0.895502963,101,11.5228758,10.31876942,NS
+GRAMBERGM,USA-NMFS-GM,Greater amberjack Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,1632.93264,14.30588812,12.81096521,LC
+GRAMBERSATLC,USA-NMFS-SATLC,Greater amberjack Southern Atlantic coast,USA,US Southeast and Gulf,0.895502963,909.45,13.7205953,12.28683375,LC
+GRNSTROCKPCOAST,USA-NMFS-PCOAST,Greenstriped rockfish Pacific Coast,USA,US West Coast,0.895502963,803,13.59610999,12.17535679,NS
+GRSHRIMPMEDGSA10,multinational-GFCM-GSA10,Giant red shrimp South Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+GRSHRIMPMEDGSA11,multinational-GFCM-GSA11,Giant red shrimp Sardinia,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+GRSHRIMPMEDGSA12-16,multinational-GFCM-GSA12-16,Giant red shrimp Geographical Sub-Areas 12-16,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+GRSHRIMPMEDGSA18-19,multinational-GFCM-GSA18-19,Giant red shrimp South Adriatic Sea and West Ionian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+GRSHRIMPMEDGSA9,multinational-GFCM-GSA9,Giant red shrimp Ligurian and North Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+GRSPROCKNCAL,USA-NMFS-PCOAST,Greenspotted rockfish Pacific Coast North,USA,US West Coast,0.895502963,58.8,10.98189713,9.834321428,NS
+GRSPROCKSCAL,USA-NMFS-PCOAST,Greenspotted rockfish Pacific Coast South,USA,US West Coast,0.895502963,55.9,10.93131966,9.789029149,NS
+GSTRGZRSTA7,New Zealand-MFish-STA7,Giant stargazer NZ Area STA7,New Zealand,New Zealand,1.048024352,608,13.31793016,13.95751513,NS
+GTRIGGM,USA-NMFS-GM,Gray triggerfish Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,446.5205007,13.00924059,11.6498135,NS
+HAD4X5Y,Canada-DFO-4X5Y,Haddock NAFO-4X5Y,Canada,Canada East Coast,0.85047205,14700,16.50335805,14.03564475,NS
+HAD5Y,USA-NMFS-5Y,Haddock NAFO-5Y,USA,US East Coast,0.895502963,1083,13.89524553,12.44323355,NS
+HADFAPL,multinational-ICES-Vb1,Haddock Faroe Plateau,multinational,Europe non EU,1.440764411,35000,17.37085862,25.02731489,NS
+HADGB,USA-NMFS-GB,Haddock Georges Bank,USA,US East Coast,0.895502963,24900,17.03037836,15.25075429,NS
+HADICE,multinational-ICES-Va,Haddock Iceland,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+HADIS,multinational-ICES-VIIa,Haddock Irish Sea,multinational,European Union,2.038476184,NA,NA,NA,NS
+HADNEAR,multinational-ICES-I-II,Haddock Northeast Arctic,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+HADNS-IIIa-VIa,multinational-ICES-NS-IIIa-VIa,Haddock North Sea and IIIa-VIa,multinational,European Union,1.440764411,NA,NA,NA,NS
+HADROCK,multinational-ICES-VIb,Haddock Rockall Bank,multinational,European Union,2.038476184,9000,16.01273514,32.64157922,NS
+HADVIIb-k,multinational-ICES-VIIb-k,Haddock ICES VIIb-k,multinational,European Union,2.038476184,NA,NA,NA,NS
+HAKEMEDGSA1-7,multinational-GFCM-GSA1-7,Hake Geographical Sub-Areas 1-7,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+HAKEMEDGSA15-16,multinational-GFCM-GSA15-16,Hake Malta Island and South of Sicily,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+HAKEMEDGSA17-18,multinational-GFCM-GSA17-18,Hake Adriatic Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+HAKEMEDGSA19,multinational-GFCM-GSA19,Hake Western Ionian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+HAKEMEDGSA20,multinational-GFCM-GSA20,Hake Eastern Ionian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+HAKEMEDGSA22-23,multinational-GFCM-GSA22-23,Hake Aegean Sea and Crete Island,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+HAKEMEDGSA9-11,multinational-GFCM-GSA9-11,Hake Geographical Sub-Areas 9-11,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+HAKENRTN,multinational-ICES-IIIa-IV-VI-VII-VIIIabd,Hake Northeast Atlantic North,multinational,European Union,2.038476184,NA,NA,NA,NS
+HAKESOTH,multinational-ICES-VIIIc-IXa,Hake Northeast Atlantic South,multinational,European Union,2.038476184,NA,NA,NA,NS
+HERR2224IIIa,multinational-ICES-22-24-IIIa,Herring ICES 22-24-IIIa,multinational,European Union,2.038476184,NA,NA,NA,NS
+HERR2529-32,multinational-ICES-2529-32,Herring Subdivisions 25-29 and 32,multinational,European Union,2.038476184,NA,NA,NA,NS
+HERR30-31,multinational-ICES-30-31,Herring Subdivisions 30-31,multinational,European Union,2.038476184,NA,NA,NA,NS
+HERR4RFA,Canada-DFO-4R,Herring NAFO 4R fall spawners,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+HERR4RSP,Canada-DFO-4R,Herring NAFO 4R spring spawners,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+HERR4TFA,Canada-DFO-4T,Herring NAFO 4T fall spawners,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+HERR4TSP,Canada-DFO-4T,Herring NAFO 4T spring spawners,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+HERR4VWX,Canada-DFO-4VWX,Herring Scotian Shelf and Bay of Fundy,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+HERRIsum,multinational-ICES-Va,Herring Iceland (Summer spawners),multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+HERRNIRS,multinational-ICES-VIIa,Herring Northern Irish Sea,multinational,European Union,2.038476184,NA,NA,NA,NS
+HERRNORSS,multinational-ICES-I-II-IVa-V-XIVa,Norwegian Spring Spawning Herring,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+HERRNS-IIIa-VIId,multinational-ICES-IIIa-IV-VIId,"Herring IIIa, VIId and North Sea",multinational,European Union,2.038476184,NA,NA,NA,NS
+HERRNWATLC,USA-NMFS-NWATLC,Atlantic herring Northwestern Atlantic Coast,USA,US East Coast,0.895502963,77247,18.16251864,16.26458926,NS
+HERRPWS,USA-AKSTATE-PWS,Pacific herring Prince William Sound,USA,US Alaska,0.895502963,NA,NA,NA,NS
+HERRRIGA,multinational-ICES-28,Herring ICES 28,multinational,European Union,2.038476184,NA,NA,NA,NS
+HERRSIRS,multinational-ICES-VIIa-g-h-j,Herring ICES VIIa-g-h-j,multinational,European Union,2.038476184,NA,NA,NA,NS
+HERRSITKA,USA-AKSTATE-SITKA,Pacific herring Sitka,USA,US Alaska,0.895502963,NA,NA,NA,NS
+HERRVIa,multinational-ICES-VIa,Herring ICES VIa,multinational,European Union,2.038476184,NA,NA,NA,NS
+HERRVIaVIIbc,multinational-ICES-VIa-VIIb-VIIc,Herring ICES VIa-VIIb-VIIc,multinational,European Union,2.038476184,NA,NA,NA,NS
+HMACKIIa-IVa-Vb-VIa-VII-VIII,multinational-ICES-IIa-IVa-Vb-VIa-VII-VIII,Horse mackerel IIa-IVa-Vb-VIa-VII-VIII,multinational,European Union,2.038476184,NA,NA,NA,NS
+HMACKIXa,multinational-ICES-IXa,Horse mackerel Portugese Waters -East,multinational,European Union,2.038476184,NA,NA,NA,NS
+HMACKWA,multinational-FAO-WA,Horse Mackerel West Africa,multinational,West Africa,2.595856662,NA,NA,NA,NS
+HOKIENZ,New Zealand-MFish-ENZ,Hoki Eastern New Zealand,New Zealand,New Zealand,1.048024352,73100,18.10733892,18.97693214,NS
+HOKIWNZ,New Zealand-MFish-WNZ,Hoki Western New Zealand,New Zealand,New Zealand,1.048024352,119800,18.60133424,19.49465127,NS
+JAMBERJPN,Japan-FAJ-JPN,Japanese amberjack Japan,Japan,Russia Japan,1.025237182,134880.3277,18.71989848,19.19233596,LC
+JANCHOPJPN,Japan-FAJ-PJPN,Japanese anchovy Pacific Coast of Japan,Japan,Russia Japan,1.025237182,265609.5972,19.39753811,19.8870773,LC
+JANCHOSETO,Japan-FAJ-SETO,Japanese anchovy Inland Sea of Japan,Japan,Russia Japan,1.025237182,69571.404,18.05786418,18.51359378,LC
+JANCHOTSST,Japan-FAJ-TSST,Japanese anchovy Tsushima Strait,Japan,Russia Japan,1.025237182,149715.1118,18.82424479,19.29931568,LC
+JCSQUIDJPNAR,Japan-FAJ-JPNAR,Japanese flying squid Japan Autumn recruitment,Japan,Russia Japan,1.025237182,300926.458,19.52237647,20.01506623,LC
+JCSQUIDJPNWR,Japan-FAJ-JPNWR,Japanese flying squid Japan Winter recruitment,Japan,Russia Japan,1.025237182,222668.703,19.22119559,19.70628439,LC
+JMACKPJPN,Japan-FAJ-PJPN,Japanese jack mackerel Pacific Coast of Japan,Japan,Russia Japan,1.025237182,70940.57896,18.07735317,18.53357462,NT
+JMACKTSST,Japan-FAJ-TSST,Japanese jack mackerel Tsushima Strait,Japan,Russia Japan,1.025237182,175541.5181,18.98338614,19.46247331,NT
+JPUFFIMKB,Japan-FAJ-IMKB,Japanese pufferfish Ise and Mikawa Bay,Japan,Russia Japan,1.025237182,133.7354381,11.80361878,12.10150886,NT
+JPUFFSOJECSSI,Japan-FAJ-SOJECSSI,Japanese pufferfish Sea of Japan and East China Sea and Seto Inland sea,Japan,Russia Japan,1.025237182,257.5122692,12.45882265,12.77324822,NT
+KCROCKNPAC,Japan-FAJ-NPAC,Kichiji rockfish North Pacific,Japan,Russia Japan,1.025237182,743.568,13.5192155,13.8604024,NS
+KELPGREENLINGORECOAST,USA-NMFS-ORECOAST,Kelp greenling Oregon Coast,USA,US West Coast,0.895502963,130,11.77528973,10.54480685,NS
+KINGKLIPSA,South Africa-DETMCM-SA,Kingklip South Africa,South Africa,South Africa,1.91096113,5855,15.58280656,29.77813762,NS
+KMACKGM,USA-NMFS-GM,King mackerel Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,NS
+KMACKSATLC,USA-NMFS-SATLC,King mackerel Southern Atlantic Coast,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,NS
+KMFLOUNBSAI,USA-NMFS-BSAI,Kamchatka flounder Bering Sea and Aleutian Islands,USA,US Alaska,0.895502963,NA,NA,NA,NS
+LINGCODNPCOAST,USA-NMFS-NPCOAST,Lingcod Northern Pacific Coast,USA,US West Coast,0.895502963,1734,14.36594144,12.86474313,NS
+LINGCODSOG,Canada-DFO-SOG,Lingcod Strait of Georgia,Canada,Canada West Coast,0.85047205,763,13.54501331,11.51965523,NS
+LINGCODSPCOAST,USA-NMFS-SPCOAST,Lingcod Southern Pacific Coast,USA,US West Coast,0.895502963,1678,14.33311317,12.83534532,NS
+LINGVa,multinational-ICES-Va,Ling Iceland Grounds,multinational,European Union,2.038476184,NA,NA,NA,NS
+LISQUIDATLC,USA-NMFS-ATLC,Longfin inshore squid Atlantic Coast,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,NS
+LNOSESKAPCOAST,USA-NMFS-PCOAST,Longnose skate Pacific Coast,USA,US West Coast,0.895502963,1268,14.05295141,12.58445964,LC
+LOBSTERGB,USA-NMFS-5Z,American lobster Georges Bank,USA,US East Coast,0.895502963,NA,NA,NA,NS
+LOBSTERGOM,USA-NMFS-5Y,American lobster Gulf of Maine,USA,US East Coast,0.895502963,NA,NA,NA,NS
+LOBSTERSNE,USA-NMFS-SNE,American lobster Southern New England,USA,US East Coast,0.895502963,NA,NA,NA,NS
+LSTHORNHPCOAST,USA-NMFS-PCOAST,Longspine thornyhead Pacific Coast,USA,US West Coast,0.895502963,2529,14.74333453,13.20269976,NS
+MACKNEICES,multinational-ICES-IIa-IIIabd-IV-Vb-VI-VII-VIIIabcde-XII-XIV-Ixa,Mackerel ICES Northeast Atlantic,multinational,European Union,2.038476184,NA,NA,NA,NS
+MEG8c9a,multinational-ICES-VIIIc-IXa,Megrim ICES VIIIc-IXa,multinational,European Union,2.038476184,NA,NA,NA,NS
+MEGVII-VIIIabd,multinational-ICES-VII-VIIIabd,Megrim VII-VIIIabd,multinational,European Union,2.038476184,NA,NA,NA,NS
+MENATGM,USA-NMFS-GM,Gulf menhaden Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,NS
+MENATLAN,USA-NMFS-ATL,Atlantic menhaden Atlantic,USA,US East Coast,0.895502963,NA,NA,NA,NS
+MHMACKMEDGSA29,multinational-GFCM-GSA29,Mediterranean horse mackerel Black Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+MONKGOMNGB,USA-NMFS-GOMNGB,Monkfish Gulf of Maine / Northern Georges Bank,USA,US East Coast,0.895502963,9383,16.0544101,14.37677182,NS
+MONKSGBMATL,USA-NMFS-SGBMATL,Monkfish Southern Georges Bank / Mid-Atlantic,USA,US East Coast,0.895502963,14328,16.47772622,14.75585266,NS
+MORWONGESE,Australia-AFMA-ESE,Jackass morwong Eastern half of Southeast Australia,Australia,Australia,1.193009991,468.41264,13.0571049,15.57725659,NS
+MORWONGWSE,Australia-AFMA-WSE,Jackass morwong Western half of Southeast Australia,Australia,Australia,1.193009991,185.2761677,12.12960279,14.47073731,NS
+MULLQNSW,Australia-DPIF-QNSW,Sea Mullet Queensland and New South Wales,Australia,Australia,1.193009991,NA,NA,NA,NS
+MUTSNAPSATLCGM,USA-NMFS-SATLCGM,Mutton snapper Southern Atlantic coast and Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,413.9,12.93337968,11.58187983,NT
+NEPHFU11,multinational-ICES-FU11,Norway lobster North Minch (FU 11),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU12,multinational-ICES-FU12,Norway lobster South Minch (FU 12),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU13,multinational-ICES-FU13,Norway lobster Firth of Clyde and Sound of Jura (FU 13),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU14,multinational-ICES-FU14,Norway lobster Irish Sea East (FU 14),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU15,multinational-ICES-FU15,Norway lobster Irish Sea West (FU 15),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU16,multinational-ICES-FU16,Norway lobster Porcupine Bank (FU 16),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU17,multinational-ICES-FU17,Norway lobster Aran Grounds (FU 17),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU19,multinational-ICES-FU19,Norway lobster South East and West of IRL (FU 19),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU2021,multinational-ICES-FU2021,"Norway lobster Labadie, Jones and Cockburn (FU 20-21)",multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU22,multinational-ICES-FU22,Norway lobster Smalls (FU 22),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU2829,multinational-ICES-FU2829,Norway lobster South-West and South Portugal (FU 28-29),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU3-4,multinational-ICES-FU3-4,Norway lobster Skagerak Kattegat (FU 3-4),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU6,multinational-ICES-FU6,Norway lobster Farn Deeps (FU 6),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU7,multinational-ICES-FU7,Norway lobster Fladen Ground (FU 7),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU8,multinational-ICES-FU8,Norway lobster Firth of Forth (FU 8),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHFU9,multinational-ICES-FU9,Norway lobster Moray Firth (FU 9),multinational,European Union,2.038476184,NA,NA,NA,NS
+NEPHMEDGSA1,multinational-GFCM-GSA1,Norway lobster Northern Alboran Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+NEPHMEDGSA15-16,multinational-GFCM-GSA15-16,Norway lobster Malta Island and South of Sicily,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+NEPHMEDGSA17-18,multinational-GFCM-GSA17-18,Norway lobster Adriatic Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+NEPHMEDGSA5,multinational-GFCM-GSA5,Norway Lobster Balearic Island,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+NEPHMEDGSA6,multinational-GFCM-GSA6,Norway lobster Northern Spain,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+NEPHMEDGSA9,multinational-GFCM-GSA9,Norway lobster Ligurian and North Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+NEPHVIIIab,multinational-ICES-VIIIab,Norway lobster VIIIab,multinational,European Union,2.038476184,NA,NA,NA,NS
+NPOUTIIIa-IV,multinational-ICES-IIIa-IV,Norway pout IIIa and North Sea,multinational,European Union,2.038476184,NA,NA,NA,NS
+NROCKBSAI,USA-NMFS-BSAI,Northern rockfish Bering Sea and Aleutian Islands,USA,US Alaska,0.895502963,NA,NA,NA,NS
+NROCKGA,USA-NMFS-GA,Northern rockfish Gulf of Alaska,USA,US Alaska,0.895502963,6070,15.61886916,13.98674362,NS
+NRSOLEEBSAI,USA-NMFS-EBSAI,Northern rock sole Eastern Bering Sea and Aleutian Islands,USA,US Alaska,0.895502963,259310,19.37353482,17.34905784,NS
+NRSOLEGA,USA-NMFS-GA,Northern rock sole Gulf of Alaska,USA,US Alaska,0.895502963,NA,NA,NA,NS
+NSHRIMPCSCH,Chile-SUBPESCA-CH-CS,Nylon shrimp Central-Southern Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+NSHRIMPNCH,Chile-SUBPESCA-CH-N,Nylon shrimp Northern Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+NZLINGESE,Australia-AFMA-SE,New Zealand ling Eastern half of Southeast Australia,Australia,Australia,1.193009991,NA,NA,NA,NS
+NZLINGLIN3-4,New Zealand-MFish-LIN3-4,New Zealand ling New Zealand Areas LIN 3 and 4,New Zealand,New Zealand,1.048024352,6424,15.67555153,16.42835974,NS
+NZLINGLIN5-6,New Zealand-MFish-LIN5-6,New Zealand ling New Zealand Areas LIN 5 and 6,New Zealand,New Zealand,1.048024352,23827,16.98632995,17.80208744,NS
+NZLINGLIN6b,New Zealand-MFish-LIN6b,New Zealand ling New Zealand Area LIN 6b,New Zealand,New Zealand,1.048024352,893.8449,13.70328755,14.36137905,NS
+NZLINGLIN72,New Zealand-MFish-LIN72,New Zealand ling New Zealand Area LIN 72,New Zealand,New Zealand,1.048024352,544.244,13.20715295,13.84141792,NS
+NZLINGLIN7WC,New Zealand-MFish-LIN7WC-WCSI,New Zealand ling New Zealand Area LIN 7WC - WCSI,New Zealand,New Zealand,1.048024352,5150,15.45450727,16.19669997,NS
+NZLINGWSE,Australia-AFMA-WSE,New Zealand ling Western half of Southeast Australia,Australia,Australia,1.193009991,NA,NA,NA,NS
+NZSNAPNZ1BOP-HAGU,New Zealand-MFish-SNA1-BOP-HAGU,New Zealand snapper New Zealand SNA 1 Bay of Plenty and Hauraki Gulf,New Zealand,New Zealand,1.048024352,NA,NA,NA,NS
+NZSNAPNZ1ENLD,New Zealand-MFish-SNA-1-ENLD,New Zealand snapper New Zealand SNA 1 east Northland,New Zealand,New Zealand,1.048024352,NA,NA,NA,NS
+NZSNAPNZ7,New Zealand-MFish-SNA-7,New Zealand snapper New Zealand SNA 7,New Zealand,New Zealand,1.048024352,699,13.45740602,14.10368923,NS
+NZSNAPNZ8,New Zealand-MFish-8,New Zealand snapper New Zealand Area 8,New Zealand,New Zealand,1.048024352,2284.7076,14.64174861,15.3449091,NS
+OFLOUNECS,Japan-FAJ-ECS,Japanese flounder East China Sea,Japan,Russia Japan,1.025237182,1181.763806,13.98251863,14.335398,NS
+OFLOUNNSJ,Japan-FAJ-NSJ,Japanese flounder Sea of Japan North,Japan,Russia Japan,1.025237182,1556.224123,14.25777301,14.61759902,NS
+OFLOUNPAC,Japan-FAJ-PAC,Japanese flounder Pacific Ocean,Japan,Russia Japan,1.025237182,2156.174,14.58384591,14.95190108,NS
+OFLOUNSETO,Japan-FAJ-SETO,Japanese flounder Inland Sea of Japan,Japan,Russia Japan,1.025237182,874.6563098,13.6815863,14.02687098,NS
+OPOUTNWATLC,USA-NMFS-NWATLC,Ocean pout Northwestern Atlantic Coast,USA,US East Coast,0.895502963,3754,15.1383325,13.55642161,NS
+OROUGHYCASCADE,Australia-AFMA-CASCADE,Orange roughy Cascade Plateau,Australia,Australia,1.193009991,NA,NA,NA,VU
+OROUGHYCH,multinational-SPRFMO-CH,Orange roughy Chile,multinational,South America,1.125724334,NA,NA,NA,VU
+OROUGHYESCR,New Zealand-MFish-ESCR,Orange roughy East and South Chatham Rise,New Zealand,New Zealand,1.048024352,8640,15.97191314,16.73895392,VU
+OROUGHYNWCR,New Zealand-MFish-NWCR,Orange roughy Northwest Chatham Rise,New Zealand,New Zealand,1.048024352,1386,14.14193246,14.8210896,VU
+OROUGHYNZ7A,New Zealand-MFish-NZ7A,Orange roughy New Zealand Challenger Plateau,New Zealand,New Zealand,1.048024352,1848,14.42961453,15.12258742,VU
+OROUGHYNZMEC,New Zealand-MFish-NZMEC,Orange roughy New Zealand Mid East Coast,New Zealand,New Zealand,1.048024352,2214,14.61031139,15.31196213,VU
+OROUGHYSE,Australia-AFMA-SE,Orange roughy Southeast Australia,Australia,Australia,1.193009991,2191.690032,14.60018351,17.41816479,VU
+PACBTUNA,multinational-ISC-PAC,Pacific bluefin tuna Pacific Ocean,multinational,Pacific Ocean,1.250825983,17345,16.66881484,20.84978671,VU
+PANCHCCH,Chile-SUBPESCA-CH-C,Peruvian Anchoveta Central Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+PANCHCSCH,Chile-SUBPESCA-CH-CS,Peruvian Anchoveta Central-Southern Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+PANCHNCHSP,Chile-SUBPESCA-NCH-SP,Peruvian Anchoveta Northern Chile Southern Peru,Chile,South America,1.787019342,NA,NA,NA,NS
+PANCHPERUNC,Peru-IMARPE-NC,Peruvian anchoveta North-Central Peru,Peru,South America,2.550994847,NA,NA,NA,NS
+PANDALGOM,USA-NMFS-5Y,Northern shrimp Gulf of Maine,USA,US East Coast,0.895502963,NA,NA,NA,NS
+PANDALI-II,multinational-ICES-I-II,Northern shrimp North-East Arctic,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+PANDALIIIaW-IVaE,multinational-ICES-IIIaW-IVaE,Northern shrimp IIIa (west) and IVa (east),multinational,European Union,2.038476184,NA,NA,NA,NS
+PANDALSFA4,Canada-DFO-SFA4,Northern shrimp SFA 4,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+PANDALSFA5,Canada-DFO-SFA5,Northern shrimp SFA 5,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+PANDALSFA6,Canada-DFO-SFA6,Northern shrimp SFA 6,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+PATGRENADIERCH,Chile-SUBPESCA-CH-CS,Patagonian grenadier Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+PATGRENADIERSARG,Argentina-CFP-ARG-S,Patagonian grenadier Southern Argentina,Argentina,South America,1.349326297,132131,18.69930441,25.23146318,NS
+PAUANPAU5A,New Zealand-MFish-NPAU5A,Black Foot Paua NZ North PAUA5A,New Zealand,New Zealand,1.048024352,73,11.19821472,11.73600173,NS
+PAUAPAU5B,New Zealand-MFish-PAU5B,New Zealand abalone species New Zealand Area PAU 5B,New Zealand,New Zealand,1.048024352,190,12.15477935,12.73850475,NS
+PAUAPAU5D,New Zealand-MFish-PAU5D,New Zealand abalone species New Zealand Area PAU 5D,New Zealand,New Zealand,1.048024352,121,11.70354582,12.26560103,NS
+PAUAPAU7,New Zealand-MFish-PAU7,New Zealand abalone species New Zealand Area PAU 7,New Zealand,New Zealand,1.048024352,207,12.24047407,12.82831491,NS
+PAUASPAU5A,New Zealand-MFish-SPAU5A,Black Foot Paua NZ South PAUA5A,New Zealand,New Zealand,1.048024352,57,10.95080655,11.47671194,NS
+PCEELARGS,Argentina-CFP-ARG-S,Pink Cusk-eel Southern Argentina,Argentina,South America,1.349326297,11700,16.2750994,21.96041961,NS
+PCEELCSCH,Chile-SUBPESCA-CH-CS,Pink cusk-eel Central-Southern Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+PCEELSCH,Chile-SUBPESCA-CH-S,Pink cusk-eel Southern Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+PCOD5AB,Canada-DFO-5AB,Pacific cod Queen Charlotte Sound,Canada,Canada West Coast,0.85047205,763.3,13.54540642,11.51998956,NS
+PCODBS,USA-NMFS-BS,Pacific cod Bering Sea,USA,US Alaska,0.895502963,NA,NA,NA,NS
+PCODGA,USA-NMFS-GA,Pacific cod Gulf of Alaska,USA,US Alaska,0.895502963,NA,NA,NA,NS
+PCODHOKK,Japan-FAJ-HOKK,Pacific cod Hokkaido,Japan,Russia Japan,1.025237182,NA,NA,NA,NS
+PCODHS,Canada-DFO-HS,Pacific cod Hecate Strait,Canada,Canada West Coast,0.85047205,3313.1,15.01339486,12.7684727,NS
+PCODNPAC,Japan-FAJ-NPAC,Pacific cod North Pacific,Japan,Russia Japan,1.025237182,188097.77,19.05247244,19.53330315,NS
+PCODSOJ,Japan-FAJ-SOJ,Pacific cod Sea of Japan,Japan,Russia Japan,1.025237182,NA,NA,NA,NS
+PCODWCVANI,Canada-DFO-WCVANI,Pacific cod West Coast of Vancouver Island,Canada,Canada West Coast,0.85047205,NA,NA,NA,NS
+PERCHEBSAI,USA-NMFS-EBSAI,Pacific Ocean perch Eastern Bering Sea and Aleutian Islands,USA,US Alaska,0.895502963,NA,NA,NA,NS
+PERCHQCI,Canada-DFO-QCI,Pacific Ocean perch Haida Gwaii,Canada,Canada West Coast,0.85047205,1488,14.21294349,12.08771119,NS
+PERCHWCVANI,Canada-DFO-WCVANI,Pacific Ocean perch West Coast of Vancouver Island,Canada,Canada West Coast,0.85047205,1048,13.86239414,11.78957876,NS
+PHAKEPCOAST,USA-NMFS-PCOAST,Pacific hake Pacific Coast,USA,US West Coast,0.895502963,406000,19.82186372,17.7505377,LC
+PHALNPAC,multinational-IPHC-NPAC,Pacific halibut North Pacific,multinational,N Pacific Ocean,1.272890706,NA,NA,NA,NS
+PHFLOUNNHOKK,Japan-FAJ-NHOKK,Pointhead flounder North coast of Hokkaido,Japan,Russia Japan,1.025237182,NA,NA,NA,NS
+PHFLOUNSOJ,Japan-FAJ-SOJ,Pointhead flounder Sea of Japan,Japan,Russia Japan,1.025237182,2961.814499,14.90131264,15.27737978,NS
+PICAMEDGSA25,multinational-GFCM-GSA25,Picarel Cyprus Island,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+PILCHPJPN,Japan-FAJ-PJPN,Japanese sardine Pacific Coast of Japan,Japan,Russia Japan,1.025237182,175942.4024,18.98566724,19.46481198,NS
+PILCHTSST,Japan-FAJ-TSST,Japanese sardine Tsushima Strait,Japan,Russia Japan,1.025237182,53011.80649,17.78602521,18.23489436,NS
+PINKSHRIMPGM,USA-NMFS-GM,Pink shrimp Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,NS
+PLAIC2123,multinational-ICES-2123,European Plaice Subdivisions 21-23,multinational,European Union,2.038476184,NA,NA,NA,NS
+PLAIC7d,multinational-ICES-VIId,European Plaice ICES VIId,multinational,European Union,2.038476184,NA,NA,NA,NS
+PLAICCELT,multinational-ICES-VIIf-g,European Plaice ICES VIIf-g,multinational,European Union,2.038476184,NA,NA,NA,NS
+PLAICECHW,multinational-ICES-VIIe,European Plaice ICES VIIe,multinational,European Union,2.038476184,NA,NA,NA,NS
+PLAICIS,multinational-ICES-VIIa,European Plaice Irish Sea,multinational,European Union,2.038476184,NA,NA,NA,NS
+PLAICNS,multinational-ICES-IV,European Plaice North Sea,multinational,European Union,2.038476184,NA,NA,NA,NS
+PLAICVIIh-k,multinational-ICES-VIIh-k,European Plaice VIIh-k,multinational,European Union,2.038476184,NA,NA,NA,NS
+POLL5YZ,USA-NMFS-5YZ,Pollock NAFO-5YZ,USA,US East Coast,0.895502963,19678,16.79501182,15.03998285,NS
+POLLFAPL,multinational-ICES-Vb1,Pollock Faroe Plateau,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+POLLIEG,multinational-ICES-Va,Pollock Iceland Grounds,multinational,Europe non EU,1.440764411,65000,17.98989783,25.91920455,NS
+POLLNEAR,multinational-ICES-I-II,Pollock Northeast Arctic,multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+POLLNS-VI-IIIa,multinational-ICES-IIIa-IV-VI,"Pollock ICES IIIa, VI and North Sea",multinational,European Union,2.038476184,2.00E+05,19.11382792,38.96308301,NS
+POPERCHGA,USA-NMFS-GA,Pacific ocean perch Gulf of Alaska,USA,US Alaska,0.895502963,20243,16.82331961,15.06533257,NS
+POPERCHPCOAST,USA-NMFS-PCOAST,Pacific ocean perch Pacific Coast,USA,US West Coast,0.895502963,1058,13.87189089,12.4223194,NS
+PORSHARATL,Canada-DFO-ATL,Porbeagle shark Atlantic Ocean,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+PRCODMEDGSA9,multinational-GFCM-GSA9,Poor cod Ligurian and North Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+PSHRMPMEDGSA6,multinational-GFCM-GSA6,Deep-water Rose Shrimp Northern Spain,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+PSOLEPCOAST,USA-NMFS-PCOAST,Petrale sole Pacific Coast,USA,US West Coast,0.895502963,2588,14.76639593,13.22335132,LC
+PTOOTHFISHCH,multinational-SUBPESCA-CFP-SCH-ARG,Patagonian Toothfish Chile,multinational,South America,1.125724334,NA,NA,NA,NS
+PTOOTHFISHMI,Australia-AFMA-MI,Patagonian toothfish Macquarie Island,Australia,Australia,1.193009991,184.369,12.12469446,14.46488163,NS
+PTOOTHFISHPEI,South Africa-DETMCM-PEI,Patagonian toothfish South Africa Subantarctic Prince Edward Islands,South Africa,South Africa,1.91096113,1514.43,14.23054969,27.19402731,NS
+QROCKPCOASTIN,Canada-DFO-PCOASTIN,Quillback rockfish Pacific Coast of Canada (Inside),Canada,Canada West Coast,0.85047205,144,11.87756858,10.10154009,NS
+QROCKPCOASTOUT,Canada-DFO-PCOASTOUT,Quillback rockfish Pacific Coast of Canada (Outside),Canada,Canada West Coast,0.85047205,462,13.04332017,11.09297924,NS
+QUAHATLC,USA-NMFS-ATLC,Ocean quahog Atlantic Coast,USA,US East Coast,0.895502963,NA,NA,NA,NS
+RBRMECS,Japan-FAJ-ECS,Red seabream East China Sea,Japan,Russia Japan,1.025237182,11625.59874,16.26872001,16.67929666,LC
+RBRMMEDGSA1-3,multinational-GFCM-GSA1-3,Red Seabream Alboran Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RBRMSETOE,Japan-FAJ-SETOE,Red seabream Inland Sea of Japan (East),Japan,Russia Japan,1.025237182,3105.528673,14.94869452,15.32595744,LC
+RBRMSETOW,Japan-FAJ-SETOW,Red seabream Inland Sea of Japan (West),Japan,Russia Japan,1.025237182,4173.130057,15.24417693,15.62889699,LC
+RDSHRMPMEDGSA1,multinational-GFCM-GSA1,Red shrimp Northern Alboran Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RDSHRMPMEDGSA10,multinational-GFCM-GSA10,Red shrimp South Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RDSHRMPMEDGSA15-16,multinational-GFCM-GSA15-16,Red shrimp Malta Island and South of Sicily,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RDSHRMPMEDGSA6,multinational-GFCM-GSA6,Red Shrimp Northern Spain,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+REDDEEP2J3K-3LNO,Canada-DFO-2J3K-3LNO,Deepwater redfish NAFO-2J3K-3LNO,Canada,Canada East Coast,0.85047205,22000,16.90655301,14.37855079,NS
+REDDEEPDP-1-2-V-XII-XIV,multinational-ICES-DP-1-2-V-XII-XIV,Beaked Redfish Areas V-XII-XIV and NAFO Subareas 1-2 (deep),multinational,Europe non EU,1.440764411,NA,NA,NA,NS
+REDDEEPUT12,Canada-DFO-UT12,Deepwater redfish Units 1-2,Canada,Canada East Coast,0.85047205,21000,16.860033,14.33898682,NS
+REDFEAUS,Australia-AFMA-EAUS,Redfish Eastern Australia,Australia,Australia,1.193009991,913.2456563,13.72476019,16.37377603,NS
+REDFISHSPP3LN,multinational-NAFO-3LN,Redfish species NAFO 3LN,multinational,Canada East Coast,1.478433277,24440,17.01173169,25.15071023,NS
+REDFISHSPP3M,multinational-NAFO-3M,Redfish species NAFO 3M,multinational,Canada East Coast,1.478433277,NA,NA,NA,NS
+REXSOLEGA,USA-NMFS-GA,Rex sole Gulf of Alaska,USA,US Alaska,0.895502963,NA,NA,NA,NS
+REXSOLEPCOAST,USA-NMFS-PCOAST,Rex sole Pacific Coast,USA,US West Coast,0.895502963,1646,14.31385866,12.81810285,NS
+REYEROCKBSAI,USA-NMFS-BSAI,Rougheye rockfish Bering Sea and Aleutian Islands,USA,US Alaska,0.895502963,NA,NA,NA,NS
+REYEROCKGA,USA-NMFS-GA,Rougheye rockfish Gulf of Alaska,USA,US Alaska,0.895502963,NA,NA,NA,NS
+RGROUPGM,USA-NMFS-GM,Red grouper Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,6529.16,15.69178886,14.05204342,VU
+RGROUPSATL,USA-NMFS-SATL,Red grouper South Atlantic,USA,US Southeast and Gulf,0.895502963,503.49,13.12931913,11.75734419,VU
+RHERRPAC,Japan-FAJ-PAC,Round herring Pacific Ocean,Japan,Russia Japan,1.025237182,NA,NA,NA,LC
+RHERRTSST,Japan-FAJ-TSST,Round herring Tsushima Strait,Japan,Russia Japan,1.025237182,43991.57093,17.5995086,18.0436706,LC
+RKCRABBB,USA-NMFS-BB,Red king crab Bristol Bay,USA,US Alaska,0.895502963,23645.80209,16.97869616,15.20447272,NS
+RKCRABNS,USA-NMFS-NS,Red king crab Norton Sound,USA,US Alaska,0.895502963,NA,NA,NA,NS
+RKCRABPI,USA-NMFS-PI,Red king crab Pribilof Islands,USA,US Alaska,0.895502963,NA,NA,NA,NS
+RMULLMEDGSA1,multinational-GFCM-GSA1,Red mullet Northern Alboran Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RMULLMEDGSA10,multinational-GFCM-GSA10,Red mullet South Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RMULLMEDGSA11,multinational-GFCM-GSA11,Red mullet Sardinia,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RMULLMEDGSA15-16,multinational-GFCM-GSA15-16,Red mullet Malta Island and South of Sicily,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RMULLMEDGSA17-18,multinational-GFCM-GSA17-18,Red mullet Adriatic Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RMULLMEDGSA19,multinational-GFCM-GSA19,Red mullet Western Ionian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RMULLMEDGSA25,multinational-GFCM-GSA25,Red mullet Cyprus Island,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RMULLMEDGSA29,multinational-GFCM-GSA29,Red mullet Black Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RMULLMEDGSA5,multinational-GFCM-GSA5,Red mullet Balearic Island,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RMULLMEDGSA6,multinational-GFCM-GSA6,Red mullet Northern Spain,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RMULLMEDGSA7,multinational-GFCM-GSA7,Red mullet Gulf of Lions,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RMULLMEDGSA9,multinational-GFCM-GSA9,Red mullet Ligurian and North Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RPORGYSATLC,USA-NMFS-SATLC,Red porgy Southern Atlantic coast,USA,US Southeast and Gulf,0.895502963,378.2960366,12.84343233,11.50133172,LC
+RROCKLOBSTERCRA1,New Zealand-MFish-CRA1,Red rock lobster New Zealand area CRA1,New Zealand,New Zealand,1.048024352,161.109,11.98983643,12.56564056,NS
+RROCKLOBSTERCRA2,New Zealand-MFish-CRA2,Red rock lobster New Zealand area CRA2,New Zealand,New Zealand,1.048024352,265.7825,12.49043358,13.09027856,NS
+RROCKLOBSTERCRA3,New Zealand-MFish-CRA3,Red rock lobster New Zealand area CRA3,New Zealand,New Zealand,1.048024352,212.492,12.26665962,12.855758,NS
+RROCKLOBSTERCRA4,New Zealand-MFish-CRA4,Red rock lobster New Zealand area CRA4,New Zealand,New Zealand,1.048024352,679.969,13.42980249,14.07476005,NS
+RROCKLOBSTERCRA5,New Zealand-MFish-CRA5,Red rock lobster New Zealand area CRA5,New Zealand,New Zealand,1.048024352,560.0995,13.23586973,13.87151379,NS
+RROCKLOBSTERCRA7,New Zealand-MFish-CRA7,Red rock lobster New Zealand area CRA7,New Zealand,New Zealand,1.048024352,193.628,12.17369407,12.75832784,NS
+RROCKLOBSTERCRA8,New Zealand-MFish-CRA8,Red rock lobster New Zealand area CRA8,New Zealand,New Zealand,1.048024352,1082.505,13.89478836,14.56207657,NS
+RROCKLOBSTERSAUSNZ,Australia-SARDI-SAUSNZ,Rock Lobster South Australia Northern Zone,Australia,Australia,1.193009991,NA,NA,NA,NS
+RROCKLOBSTERSAUSSZ,Australia-SARDI-SAUSSZ,Rock Lobster South Australia Southern Zone,Australia,Australia,1.193009991,NA,NA,NA,NS
+RSARDINWA,multinational-FAO-WA,Round Sardinella West Africa,multinational,West Africa,2.595856662,NA,NA,NA,LC
+RSFLOUNSOJ,Japan-FAJ-SOJ,Round-nose flounder Sea of Japan,Japan,Russia Japan,1.025237182,1568.679061,14.26574446,14.62577165,NS
+RSHRMPMEDGSA1,multinational-GFCM-GSA1,Deep-water rose shrimp Northern Alboran Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RSHRMPMEDGSA12-16,multinational-GFCM-GSA12-16,Deep-water Rose Shrimp GSA 12-16,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RSHRMPMEDGSA17-19,multinational-GFCM-GSA17-19,Deep-water rose shrimp Geographical Sub-Areas 17-19,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RSHRMPMEDGSA5,multinational-GFCM-GSA5,Deep-water rose shrimp Balearic Island,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+RSNAPGM,USA-NMFS-GM,Red snapper Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,5855.877884,15.58295648,13.95458371,VU
+RSNAPSATLC,USA-NMFS-SATLC,Red snapper Southern Atlantic coast,USA,US Southeast and Gulf,0.895502963,195.044732,12.18098421,10.90810745,VU
+RSOLE5AB,Canada-DFO-5AB,Rock sole Queen Charlotte Sound,Canada,Canada West Coast,0.85047205,524,13.16924696,11.20007646,NS
+RSOLEGA,USA-NMFS-GA,Rock sole Gulf of Alaska,USA,US Alaska,0.895502963,NA,NA,NA,NS
+RSOLEHSTR,Canada-DFO-HS,Rock sole Hecate Strait,Canada,Canada West Coast,0.85047205,1895,14.4547294,12.29334334,NS
+RSQLOBSTERCSCH,Chile-SUBPESCA-CH-CS,Red squat lobster Central-Southern Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+RSQLOBSTERNCH,Chile-SUBPESCA-CH-N,Red squat lobster Northern Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+SAABALONESA,South Africa-DETMCM-SA,Abalone South Africa,South Africa,South Africa,1.91096113,NA,NA,NA,NS
+SABLEFEBSAIGA,USA-NMFS-EBSAIGA,Sablefish Eastern Bering Sea / Aleutian Islands / Gulf of Alaska,USA,US Alaska,0.895502963,18950,16.75731449,15.00622478,NS
+SABLEFPCAN,Canada-DFO-PCOAST,Sablefish Pacific Coast of Canada,Canada,Canada West Coast,0.85047205,3230,14.9879927,12.74686887,NS
+SABLEFPCOAST,USA-NMFS-PCOAST,Sablefish Pacific Coast,USA,US West Coast,0.895502963,7476,15.82720845,14.17331207,NS
+SAILEATL,multinational-ICCAT-EATL,Sailfish Eastern Atlantic,multinational,E Atlantic Ocean,2.183111075,851,13.65416741,29.80856408,NS
+SAILWATL,multinational-ICCAT-WATL,Sailfish Western Atlantic,multinational,W Atlantic Ocean,1.162066017,850,13.65299163,15.8656776,NS
+SARDINWA,multinational-FAO-WA,Sardinella West Africa,multinational,West Africa,2.595856662,NA,NA,NA,NS
+SARDMEDGSA16,multinational-GFCM-GSA16,Sardine South of Sicily,multinational,Mediterranean-Black Sea,1.527982791,5307,15.48453726,23.66010647,LC
+SARDMEDGSA17-18,multinational-GFCM-GSA17-18,European pilchard Adriatic Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+SARDMEDGSA6,multinational-GFCM-GSA6,European pilchard Northern Spain,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+SARDPCOAST,USA-NMFS-PCOAST,Pacific sardine Pacific Coast,USA,US West Coast,0.895502963,NA,NA,NA,NS
+SARDPVIIIc-IXa,multinational-ICES-VIIIc-IXa,European pilchard ICES VIIIc-IXa,multinational,European Union,2.038476184,NA,NA,NA,NS
+SARDSA,South Africa-DETMCM-SA,Sardine South Africa,South Africa,South Africa,1.91096113,NA,NA,NA,NS
+SARDVIIIabd,multinational-ICES-VIIIabd,Sardine ICES VIIIabd,multinational,European Union,2.038476184,NA,NA,NA,NS
+SARDWAZC,multinational-FAO-Z-C,Sardine West Africa Zone C,multinational,West Africa,2.595856662,NA,NA,NA,LC
+SAURNWPAC,Japan-FAJ-NWPAC,Pacific saury Northwest Pacific,Japan,Russia Japan,1.025237182,474259.1,19.97726435,20.48143421,NS
+SBARSHARATL,USA-NMFS-ATL,Sandbar shark Atlantic,USA,US Southeast and Gulf,0.895502963,403,12.90669184,11.55798079,NS
+SBELLYROCKPCOAST,USA-NMFS-PCOAST,Shortbelly rockfish Pacific Coast,USA,US West Coast,0.895502963,NA,NA,NA,NS
+SBT,multinational-CCSBT-SO,Southern bluefin tuna Southern Oceans,multinational,Indian Ocean,2.05607134,33000,17.31201812,35.59474429,CR
+SBWHITACIR,New Zealand-MFish-CIR,Southern blue whiting Campbell Island Rise,New Zealand,New Zealand,1.048024352,NA,NA,NA,NS
+SBWHITARGS,Argentina-CFP-ARG-S,Southern blue whiting Southern Argentina,Argentina,South America,1.349326297,NA,NA,NA,NS
+SBWHITCH,Chile-SUBPESCA-CH-CS,Southern blue whiting Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+SCALL5ZMAB,USA-NMFS-5ZMAB,Sea scallop Georges Bank and Mid-Atlantic Bight,USA,US East Coast,0.895502963,23798,16.9851121,15.21021822,NS
+SCALLGB,Canada-DFO-5Z,Sea scallop Georges Bank,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+SCHHEADATL,USA-NMFS-ATL,Scalloped hammerhead Atlantic,USA,US East Coast,0.895502963,NA,NA,NA,NS
+SCMPBP,New Zealand-MFish-BOP,Scampi Bay of Plenty,New Zealand,New Zealand,1.048024352,342.4918,12.74400299,13.35602548,LC
+SCMPMB,New Zealand-MFish-MB,Scampi Mernoo Bank,New Zealand,New Zealand,1.048024352,NA,NA,NA,LC
+SCMPWHB,New Zealand-MFish-WHB,Scampi Wairapa/Hawke Bay,New Zealand,New Zealand,1.048024352,194,12.17561344,12.76033938,LC
+SCUPNWATLC,USA-NMFS-NWATLC,Scup Atlantic Coast,USA,US East Coast,0.895502963,11752,16.279534,14.57837094,NS
+SDOG4VWX5,Canada-DFO-4VWX5,"Spiny dogfish Scotian Shelf, Bay of Fundy and Georges Bank",Canada,Canada East Coast,0.85047205,741.67,13.51665968,11.49554126,NS
+SDOGATLC,USA-NMFS-ATLC,Spiny dogfish Atlantic Coast,USA,US East Coast,0.895502963,NA,NA,NA,NS
+SDOGBLKGSA29,multinational-GFCM-GSA29,Spiny Dogfish Black Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+SEELNSSA1,multinational-ICES-SA1,Sand eel SA 1,multinational,European Union,2.038476184,NA,NA,NA,NS
+SEELNSSA2,multinational-ICES-SA2,Sand eel SA 2,multinational,European Union,2.038476184,NA,NA,NA,NS
+SEELNSSA3,multinational-ICES-SA3,Sand eel SA 3,multinational,European Union,2.038476184,NA,NA,NA,NS
+SEELNSSA4,multinational-ICES-SA4,Sand eel Sandeel Area 4,multinational,European Union,2.038476184,NA,NA,NA,NS
+SFLOUNMATLC,USA-NMFS-MATLC,Summer flounder Mid-Atlantic Coast,USA,US East Coast,0.895502963,12945,16.37622017,14.66495369,NS
+SHAKE4VWX,Canada-DFO-4VWX,Silver hake Scotian Shelf and Bay of Fundy,Canada,Canada East Coast,0.85047205,16000,16.58809928,14.1077148,NT
+SHCROCKPCOAST,USA-NMFS-PCOAST,Sharpchin rockfish Pacific Coast,USA,US West Coast,0.895502963,270,12.50617724,11.19931878,NS
+SILVERFISHSE,Australia-AFMA-SE,Silverfish Southeast Australia,Australia,Australia,1.193009991,2685.688627,14.80344772,17.66066103,NS
+SKJCIO,multinational-IOTC-IO,Skipjack tuna Indian Ocean,multinational,Indian Ocean,2.05607134,510000,20.04992128,41.22406852,LC
+SKJCWPAC,multinational-WCPFC-CWPAC,Skipjack tuna Central Western Pacific,multinational,CW Pacific Ocean,1.007149874,1618800,21.20495097,21.35656369,LC
+SKJEATL,multinational-ICCAT-EATL,Skipjack tuna Eastern Atlantic,multinational,E Atlantic Ocean,2.183111075,156500,18.86856657,41.19217664,LC
+SKJWATL,multinational-ICCAT-WATL,Skipjack tuna Western Atlantic,multinational,W Atlantic Ocean,1.162066017,31620,17.26930039,20.06806712,LC
+SMDOGATL,USA-NMFS-ATL,Smooth dogfish Atlantic,USA,US East Coast,0.895502963,NA,NA,NA,NS
+SMOOTHOREOBP,New Zealand-MFish-BP,Smooth Oreo Bounty Plateau,New Zealand,New Zealand,1.048024352,447,13.01031387,13.63512577,DD
+SMOOTHOREOCR,New Zealand-MFish-CR,Smooth oreo Chatham Rise,New Zealand,New Zealand,1.048024352,2996,14.91278862,15.62896563,DD
+SMOOTHOREOEPR,New Zealand-MFish-EPR,Smooth Oreo East Pukaki Rise,New Zealand,New Zealand,1.048024352,443,13.00132505,13.62570526,DD
+SMOOTHOREOSLD,New Zealand-MFish-SLD,Smooth Oreo Southland,New Zealand,New Zealand,1.048024352,420.72,12.94972281,13.57162486,DD
+SMOOTHOREOWECR,New Zealand-MFish-WECR,Smooth oreo West end of Chatham Rise,New Zealand,New Zealand,1.048024352,2179,14.59437661,15.29526209,DD
+SMOOTHSKA4T,Canada-DFO-4T,Smooth skate Southern Gulf of St. Lawrence,Canada,Canada East Coast,0.85047205,120.45,11.69899001,9.949664012,NS
+SMSHRMPMEDGSA10,multinational-GFCM-GSA10,Spottail mantis shrimp South Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+SMSHRMPMEDGSA17-18,multinational-GFCM-GSA17-18,Spottail mantis shrimp Adriatic Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+SMSHRMPMEDGSA9,multinational-GFCM-GSA9,Spottail mantis shrimp Ligurian and North Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+SMULLMEDGSA15-16,multinational-GFCM-GSA15-16,Surmullet Malta Island and South of Sicily,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+SMULLMEDGSA5,multinational-GFCM-GSA5,Surmullet Balearic Island,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+SMULLMEDGSA9,multinational-GFCM-GSA9,Surmullet Ligurian and North Tyrrhenian Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+SNAPSAUSNSG,Australia-SARDI-SAUSNSG,Snapper Northern Spencer Gulf,Australia,Australia,1.193009991,NA,NA,NA,NS
+SNAPSAUSSGSV,Australia-SARDI-SAUSSGSV,Snapper Southern Gulf St. Vincent,Australia,Australia,1.193009991,NA,NA,NA,NS
+SNAPSAUSSSG,Australia-SARDI-SAUSSSG,Snapper Southern Spencer Gulf,Australia,Australia,1.193009991,NA,NA,NA,NS
+SNOSESHARATL,USA-NMFS-ATL,Atlantic sharpnose shark Atlantic,USA,US Southeast and Gulf,0.895502963,1270,14.05452746,12.58587099,NS
+SNOWCRABBS,USA-NMFS-BS,Snow crab Bering Sea,USA,US Alaska,0.895502963,NA,NA,NA,NS
+SNOWCRABESJ,Japan-FAJ-ESJ,Snow crab Sea of Japan East,Japan,Russia Japan,1.025237182,829.135,13.62813827,13.97207407,NS
+SNOWCRABHOKK,Japan-FAJ-HOKK,Snow crab Hokkaido,Japan,Russia Japan,1.025237182,NA,NA,NA,NS
+SNOWCRABNPAC,Japan-FAJ-NPAC,Snow crab North Pacific,Japan,Russia Japan,1.025237182,159.068,11.97708706,12.27935499,NS
+SNOWCRABOKS,Japan-FAJ-OKS,Snow crab Okhotsk Sea,Japan,Russia Japan,1.025237182,NA,NA,NA,NS
+SNOWCRABSGSL,Canada-DFO-4T,Snow crab Southern Gulf of St. Lawrence,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+SNOWCRABWSJ,Japan-FAJ-WSJ,Snow crab Sea of Japan West,Japan,Russia Japan,1.025237182,5475.84,15.51585625,15.90743273,NS
+SNOWGROUPSATLC,USA-NMFS-SATLC,Snowy grouper Southern Atlantic coast,USA,US Southeast and Gulf,0.895502963,189.8737661,12.15411474,10.88404577,VU
+SNROCKPCOAST,USA-NMFS-PCOAST,Splitnose Rockfish Pacific Coast,USA,US West Coast,0.895502963,1268,14.05295141,12.58445964,NS
+SOLECS,multinational-ICES-VIIf-g,Common sole Celtic Sea,multinational,European Union,2.038476184,NA,NA,NA,NS
+SOLEIIIa-2224,multinational-ICES-22-24-IIIa,Common sole 22-24-IIIa,multinational,European Union,2.038476184,NA,NA,NA,NS
+SOLEIS,multinational-ICES-VIIa,Common sole Irish Sea,multinational,European Union,2.038476184,NA,NA,NA,NS
+SOLENS,multinational-ICES-IV,Common sole North Sea,multinational,European Union,2.038476184,NA,NA,NA,NS
+SOLEVIId,multinational-ICES-VIId,Common sole ICES VIId,multinational,European Union,2.038476184,NA,NA,NA,NS
+SOLEVIIe,multinational-ICES-VIIe,Common sole Western English Channel,multinational,European Union,2.038476184,NA,NA,NA,NS
+SOLEVIIh-k,multinational-ICES-VIIh-k,Common sole VIIh-k,multinational,European Union,2.038476184,NA,NA,NA,NS
+SOLEVIIIab,multinational-ICES-VIIIab,Common sole VIIIab,multinational,European Union,2.038476184,NA,NA,NA,NS
+SOLMEDGSA17,multinational-GFCM-GSA17,Common Sole Northern Adriatic Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+SOUTHHAKECH,Chile-SUBPESCA-CH-CS,Southern hake Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+SOUTHHAKECR,New Zealand-MFish-CR,Southern hake Chatham Rise,New Zealand,New Zealand,1.048024352,4144,15.23717206,15.96892738,NS
+SOUTHHAKESA,New Zealand-MFish-SA,Southern hake Sub-Antarctic,New Zealand,New Zealand,1.048024352,4341,15.28361529,16.01760102,NS
+SOUTHHAKEWCSI,New Zealand-MFish-WCSI,Southern hake West Coast South Island,New Zealand,New Zealand,1.048024352,8077,15.90453107,16.66833587,NS
+SPANMACKGM,USA-NMFS-GM,Spanish mackerel Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,NS
+SPANMACKSATLC,USA-NMFS-SATLC,Spanish mackerel Southern Atlantic Coast,USA,US Southeast and Gulf,0.895502963,2750,14.82711147,13.27772226,LC
+SPANMACKSETO,Japan-FAJ-SETO,Japanese Spanish mackerel Inland Sea of Japan,Japan,Russia Japan,1.025237182,6926.257021,15.75083011,16.14833668,DD
+SPHAKECH,Chile-SUBPESCA-CH-CS,South Pacific Hake Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+SPRAT22-32,multinational-ICES-22-32,Sprat ICES Baltic Areas 22-32,multinational,European Union,2.038476184,NA,NA,NA,NS
+SPRATNS,multinational-ICES-IV,Sprat North Sea,multinational,European Union,2.038476184,NA,NA,NA,NS
+SPRBLKGSA29,multinational-GFCM-GSA29,Sprat Black Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+SPSDOGPCOAST,USA-NMFS-PCOAST,Spotted spiny dogfish Pacific Coast,USA,US West Coast,0.895502963,848,13.65063591,12.22418491,LC
+SPURDNEATL,multinational-ICES-I-II-III-IV-V-VI-VII-VIII-IX-XII-XIV,Spurdog Northeast Atlantic,multinational,European Union,2.038476184,NA,NA,NA,NS
+SRAKEROCKBSAI,USA-NMFS-BSAI,Shortraker rockfish Bering Sea and Aleutian Islands,USA,US Alaska,0.895502963,NA,NA,NA,NS
+SSANDNSJ,Japan-FAJ-NSJ,Sailfin sandfish Sea of Japan North,Japan,Russia Japan,1.025237182,NA,NA,NA,NS
+SSANDWSJ,Japan-FAJ-WSJ,Sailfin sandfish Sea of Japan West,Japan,Russia Japan,1.025237182,6694.38,15.71677893,16.11342613,NS
+SSARDCH,Chile-SUBPESCA-CH-CS,Southern sardine Chile,Chile,South America,1.787019342,NA,NA,NA,NS
+SSLOBSTERSASC,South Africa-DETMCM-SASC,Southern spiny lobster South Africa South coast,South Africa,South Africa,1.91096113,NA,NA,NA,NS
+SSTHORNHPCOAST,USA-NMFS-PCOAST,Shortspine thornyhead Pacific Coast,USA,US West Coast,0.895502963,2034,14.52551486,13.0076416,EN
+STFLOUNNPCOAST,USA-NMFS-NPCOAST,Starry flounder Northern Pacific Coast,USA,US West Coast,0.895502963,818,13.61461762,12.19193042,LC
+STFLOUNSPCOAST,USA-NMFS-SPCOAST,Starry flounder Southern Pacific Coast,USA,US West Coast,0.895502963,396,12.88916949,11.54228947,LC
+STMARLINIO,multinational-IOTC-IO,Striped marlin Indian Ocean,multinational,Indian Ocean,2.05607134,4218,15.25487164,31.36510438,NT
+STMARLINNEPAC,multinational-IATTC-NEPAC,Striped marlin Northeast Pacific,multinational,NE Pacific Ocean,1.427816046,2596,14.76948236,21.08810391,NT
+STMARLINSWPO,multinational-WCPFC-WPO,Striped marlin Southwestern Pacific Ocean,multinational,SW Pacific Ocean,1.953744564,2081,14.54835911,28.42377751,NT
+STMARLINWCNPAC,multinational-ISC-WCNPAC,Striped marlin Western and Central North Pacific,multinational,CW Pacific Ocean,1.007149874,5657,15.54840427,15.6595734,NT
+STRIPEDBASSGOMCHATT,USA-NMFS-5YCHATT,Striped bass Gulf of Maine / Cape Hatteras,USA,US East Coast,0.895502963,NA,NA,NA,NS
+SURFMATLC,USA-NMFS-MATLC,Atlantic surfclam Mid-Atlantic Coast,USA,US East Coast,0.895502963,98000,18.40047804,16.47768261,NS
+SWHITSE,Australia-AFMA-SE,School whiting Southeast Australia,Australia,Australia,1.193009991,2070.344826,14.54322573,17.3502136,NS
+SWORDEPAC,multinational-IATTC-EPAC,Swordfish Eastern Pacific,multinational,E Pacific Ocean,1.105578368,54900,17.82102391,19.70253852,LC
+SWORDIO,multinational-IOTC-IO,Swordfish Indian Ocean,multinational,Indian Ocean,2.05607134,27100,17.11504429,35.18975204,LC
+SWORDMED,multinational-ICCAT-MED,Swordfish Mediterranean Sea,multinational,Mediterranean-Black Sea,1.527982791,14600,16.49653209,25.20641714,LC
+SWORDNATL,multinational-ICCAT-NATL,Swordfish North Atlantic,multinational,North Atlantic Ocean,1.684328499,13700,16.43290639,27.67841256,LC
+SWORDNPAC,multinational-ISC-NPAC,Swordfish North Pacific,multinational,North Pacific Ocean,1.272890706,14920,16.51821315,21.02587999,LC
+SWORDSATL,multinational-ICCAT-SATL,Swordfish South Atlantic,multinational,South Atlantic Ocean,1.792744301,14210,16.4694565,29.52552428,LC
+TANNERCRABBSAI,USA-NMFS-BSAI,Tanner crab Bering Sea and Aleutian Islands,USA,US Alaska,0.895502963,NA,NA,NA,NS
+TARAKNZ,New Zealand-MFish-SA,Tarakihi New Zealand,New Zealand,New Zealand,1.048024352,682,13.43278494,14.07788573,NS
+TBSKAMEDGSA29,multinational-GFCM-GSA29,Thornback skate Black Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+TIGERFLATSE,Australia-AFMA-SE,Tiger flathead Southeast Australia,Australia,Australia,1.193009991,2854.058088,14.86425243,17.73320165,NS
+TILEGM,USA-NMFS-GM,Tilefish Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,EN
+TILEMATLC,USA-NMFS-MATLC,Tilefish Mid-Atlantic Coast,USA,US East Coast,0.895502963,1029,13.84409801,12.3974308,EN
+TILESATLC,USA-NMFS-SATLC,Tilefish Southern Atlantic coast,USA,US Southeast and Gulf,0.895502963,253.9886108,12.44504471,11.14457441,EN
+TREVALLYTRE7,New Zealand-MFish-TRE7,Trevally New Zealand Areas TRE 7,New Zealand,New Zealand,1.048024352,1818,14.41324755,15.10543443,LC
+TSKA3LNOPs,multinational-NAFO-3LNOPs,Thorny skate NAFO-3LNOPs,multinational,Canada East Coast,1.478433277,6653,15.71057844,23.22704196,NS
+TURBLKGSA29,multinational-GFCM-GSA29,Turbot Black Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+TURIV,multinational-ICES-IV,Turbot North Sea,multinational,European Union,2.038476184,NA,NA,NA,NS
+VSNAPGM,USA-NMFS-GM,Vermilion snapper Gulf of Mexico,USA,US Southeast and Gulf,0.895502963,1528.606388,14.23986702,12.75184312,NS
+VSNAPSATLC,USA-NMFS-SATLC,Vermilion snapper Southern Atlantic coast,USA,US Southeast and Gulf,0.895502963,696.7187,13.45413702,12.04821957,VU
+WANGLVII-VIIIabd,multinational-ICES-VII-VIIIabd,White anglerfish VII and VIIIabd,multinational,European Union,2.038476184,NA,NA,NA,NS
+WANGLVIIIc-IXa,multinational-ICES-VIIIc-IXa,White anglerfish VIIIc-IXa,multinational,European Union,2.038476184,NA,NA,NA,NS
+WAREHOUESE,Australia-AFMA-ESE,Blue Warehou Eastern half of Southeast Australia,Australia,Australia,1.193009991,966.66474,13.78160701,16.44159486,NS
+WAREHOUWSE,Australia-AFMA-WSE,Blue Warehou Western half of Southeast Australia,Australia,Australia,1.193009991,866.7822979,13.67254313,16.31148055,NS
+WEAKFISHATLC,USA-NMFS-ATLC,Weakfish Atlantic Coast,USA,US East Coast,0.895502963,NA,NA,NA,NS
+WHAKE3NOPs,multinational-NAFO-3NOPs,White hake Southern Grand Bank and St. Pierre Bank,multinational,Canada East Coast,1.478433277,3500,15.06827353,22.27743701,NS
+WHAKE4RS,Canada-DFO-4RS,White hake Northern Gulf of St. Lawrence,Canada,Canada East Coast,0.85047205,9016,16.01451133,13.61989428,NS
+WHAKE4T,Canada-DFO-4T,White hake Southern Gulf of St. Lawrence,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+WHAKEGBGOM,USA-NMFS-5YZ,White hake Georges Bank / Gulf of Maine,USA,US East Coast,0.895502963,5422,15.50597531,13.88564684,NS
+WHITMEDGSA29,multinational-GFCM-GSA29,Whiting Black Sea,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,NS
+WHITNS-VIId,multinational-ICES-IV-VIId,Whiting NS-VIId,multinational,European Union,2.038476184,NA,NA,NA,NS
+WHITVIa,multinational-ICES-VIa,Whiting ICES VIa,multinational,European Union,2.038476184,NA,NA,NA,NS
+WHITVIIa,multinational-ICES-VIIa,Whiting Irish Sea,multinational,European Union,2.038476184,NA,NA,NA,NS
+WHITVIIek,multinational-ICES-VIIe-k,Whiting ICES VIIe-k,multinational,European Union,2.038476184,21000,16.860033,34.36877573,NS
+WINDOWGOMGB,USA-NMFS-5YZ,Windowpane flounder - Gulf of Maine / Georges Bank,USA,US East Coast,0.895502963,700,13.45883561,12.05242718,NS
+WINDOWSNEMATL,USA-NMFS-SNEMATL,Windowpane Southern New England-Mid Atlantic,USA,US East Coast,0.895502963,500,13.12236338,11.75111529,NS
+WINFLOUN4T,Canada-DFO-4T,Winter flounder Southern Gulf of St. Lawrence,Canada,Canada East Coast,0.85047205,NA,NA,NA,NS
+WINFLOUN5Z,USA-NMFS-5Z,Winter Flounder NAFO-5Z,USA,US East Coast,0.895502963,2840,14.85931461,13.30656027,NS
+WINFLOUND5Y,USA-NMFS-5Y,Winter Flounder NAFO-5Y,USA,US East Coast,0.895502963,NA,NA,NA,NS
+WINFLOUNSNEMATL,USA-NMFS-SNEMATL,Winter Flounder Southern New England-Mid Atlantic,USA,US East Coast,0.895502963,11728,16.2774897,14.57654027,NS
+WITFLOUN4RST,Canada-DFO-4RST,Witch flounder Gulf of St. Lawrence,Canada,Canada East Coast,0.85047205,1990,14.5036452,12.33494486,NS
+WITFLOUN5Y,USA-NMFS-5Y,Witch Flounder NAFO-5Y,USA,US East Coast,0.895502963,1957,14.48692325,12.9730827,NS
+WLFLOUNNPAC,Japan-FAJ-NPAC,Willowy flounder North Pacific,Japan,Russia Japan,1.025237182,144.6048296,11.88175999,12.18162212,NS
+WMARLINATL,multinational-ICCAT-ATL,White marlin Atlantic,multinational,Atlantic Ocean,1.749116527,1239,14.02981516,24.53978157,VU
+WPOLLAI,USA-NMFS-AI,Walleye pollock Aleutian Islands,USA,USA,0.895502963,NA,NA,NA,NS
+WPOLLEBS,USA-NMFS-EBS,Walleye pollock Eastern Bering Sea,USA,USA,0.895502963,NA,NA,NA,NS
+WPOLLGA,USA-NMFS-GA,Walleye pollock Gulf of Alaska,USA,USA,0.895502963,NA,NA,NA,NS
+WPOLLNAVAR,Russia-RFFA-NAVAR,Walleye Pollock Navarinsky,Russia,Russia,1.755351104,NA,NA,NA,NS
+WPOLLNSO,Russia-RFFA-NSO,Walleye pollock Northern Sea of Okhotsk,Russia,Russia,1.755351104,966700,20.68939877,36.31715896,NS
+WPOLLWBS,Russia-RFFA-WBS,Walleye pollock Western Bering Sea,Russia,Russia,1.755351104,NA,NA,NA,NS
+WROCKPCOAST,USA-NMFS-PCOAST,Widow rockfish Pacific Coast,USA,USA,0.895502963,7776,15.86655263,14.2085449,NS
+WSHRIMPGM,USA-NMFS-GM,White shrimp Gulf of Mexico,USA,USA,0.895502963,NA,NA,NA,NS
+WVSCALLALASKA,USA-NMFS-ALASKA,Weathervane scallop Alaska,USA,USA,0.895502963,582.412128,13.2749336,11.88774238,NS
+YEGROUPGM,USA-NMFS-GM,Yellowedge grouper Gulf of Mexico,USA,USA,0.895502963,375,12.8346813,11.49349514,NS
+YELL3LNO,multinational-NAFO-3LNO,Yellowtail Flounder NAFO 3LNO,multinational,Canada East Coast,1.478433277,18730,16.74563707,24.75730709,NS
+YELLCCODGOM,USA-NMFS-CCOD5Y,Yellowtail flounder Cape Cod / Gulf of Maine,USA,US East Coast,0.895502963,1285,14.06626928,12.59638582,NS
+YELLGB,USA-NMFS-GB,Yellowtail flounder Georges Bank,USA,USA,0.895502963,9400,16.05622025,14.37839281,NS
+YELLSNEMATL,USA-NMFS-SNEMATL,Yellowtail Flounder Southern New England-Mid Atlantic,USA,USA,0.895502963,541,13.20117456,11.82169094,NS
+YEYEROCKPCOAST,USA-NMFS-PCOAST,Yelloweye rockfish Pacific Coast,USA,USA,0.895502963,63,11.05089001,9.896104749,NS
+YFINATL,multinational-ICCAT-ATL,Yellowfin tuna Atlantic,multinational,Atlantic Ocean,1.749116527,144600,18.78948187,32.86499327,NT
+YFINCWPAC,multinational-WCPFC-CWPAC,Yellowfin tuna Central Western Pacific,multinational,CW Pacific Ocean,1.007149874,586400,20.18951271,20.33386518,NT
+YFINEIO,multinational-IOTC-IO,Yellowfin tuna Indian Ocean,multinational,Indian Ocean,2.05607134,422000,19.86051587,40.83463748,NT
+YFINEPAC,multinational-IATTC-NEPAC,Yellowfin tuna Eastern Pacific,multinational, E Pacific,1.105578368,274960,19.43213619,21.48374941,NT
+YNOSESKACSCH,Chile-SUBPESCA-CH-CS,Yellownose skate Central-Southern Chile,Chile,Chile,1.787019342,NA,NA,NA,NS
+YNOSESKASCH,Chile-SUBPESCA-CH-S,Yellownose skate Southern Chile,Chile,Chile,1.787019342,NA,NA,NA,NS
+YSOLEBSAI,USA-NMFS-BSAI,Yellowfin sole Bering Sea and Aleutian Islands,USA,US Alaska,0.895502963,NA,NA,NA,NS
+YTROCKNPCOAST,USA-NMFS-NPCOAST,Yellowtail rockfish Northern Pacific Coast,USA,USA,0.895502963,4805,15.3851676,13.77746318,NS
+YTSNAPSATLCGM,USA-NMFS-SATLCGM,Yellowtail Snapper Southern Atlantic Coast and Gulf of Mexico,USA,USA,0.895502963,1700,14.34613881,12.84700982,NS

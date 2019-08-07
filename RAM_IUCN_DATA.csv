@@ -1,0 +1,119 @@
+stockid,latinname,stocklong,IUCN_status,IUCN_trend,IUCN_codified,countries,region,cost_value,MSYbest,lnMSY,final_value,assessid
+ALBAIO,Thunnus alalunga  ,Albacore tuna Indian Ocean,NT,decreasing,3,multinational,Indian Ocean,2.05607134,38800,17.4739308,35.92764833,
+ALBAMED,Thunnus alalunga  ,Albacore tuna Mediterranean,NT,decreasing,3,multinational,Mediterranean Sea,1.527982791,28900,17.17935215,26.24975445,ICCAT-ALBAMED-1951-2016-PONS
+ALBANATL,Thunnus alalunga  ,Albacore tuna North Atlantic,NT,decreasing,3,multinational,N Atlantic,1.684328499,36650,17.41692399,29.33582144,ICCAT-ALBANATL-1930-2011-SISIMP2016
+ALBANPAC,Thunnus alalunga  ,Albacore tuna North Pacific,NT,decreasing,3,multinational,North Pacific,1.272890706,105571,18.47489427,23.5165212,
+ALBASATL,Thunnus alalunga  ,Albacore tuna South Atlantic,NT,decreasing,3,multinational,S Atlantic,1.792744301,25147.5,17.04026905,30.54884522,ICCAT-ALBASATL-1950-2015-PONS
+ALBASPAC,Thunnus alalunga  ,Albacore tuna South Pacific Ocean,NT,decreasing,3,multinational,S Pacific,1.011341647,76800,18.1567152,18.36264225,SPC-ALBASPAC-1952-2015-PONS
+ANCHIXa,Engraulis encrasicolus,Anchovy Portugese Waters -East,LC,decreasing,2,multinational,European Union,2.038476184,NA,NA,NA,
+ANCHMEDGSA1,Engraulis encrasicolus,Anchovy Northern Alboran Sea,LC,decreasing,2,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,
+ANCHMEDGSA16,Engraulis encrasicolus,Anchovy South of Sicily,LC,decreasing,2,multinational,S of Sicily,2.156761822,2359,14.67374836,31.64778025,STECF-ANCHMEDGSA16-2004-2011-OSIO
+ANCHMEDGSA17-18,Engraulis encrasicolus,Anchovy Adriatic Sea,LC,decreasing,2,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,
+ANCHMEDGSA29,Engraulis encrasicolus,Anchovy Black Sea,LC,decreasing,2,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,
+ANCHMEDGSA6,Engraulis encrasicolus,Anchovy Northern Spain,LC,decreasing,2,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,
+ANCHMEDGSA9,Engraulis encrasicolus,Anchovy Ligurian and North Tyrrhenian Sea,LC,decreasing,2,multinational,Mediterranean-Black Sea,1.527982791,NA,NA,NA,
+ANCHOBAYB,Engraulis encrasicolus,Anchovy ICES VIII,LC,decreasing,2,multinational,European Union,2.038476184,NA,NA,NA,
+ANCHOSA,Engraulis encrasicolus,Anchovy South Africa,LC,decreasing,2,South Africa,South Africa,1.91096113,NA,NA,NA,
+ARGANCHONARG,Engraulis anchoita,Argentine anchoita Northern Argentina,NT,decreasing,3,Argentina,Argentina,1.349326297,222163,19.2189219,25.93259673,INIDEP-ARGANCHONARG-1989-2007-Parma
+ARGANCHOSARG,Engraulis anchoita,Argentine anchoita Southern Argentina,NT,decreasing,3,Argentina,Argentina,1.349326297,454000,19.93360776,26.89694114,INIDEP-ARGANCHOSARG-1989-2015-BURATTI
+ATHAL5YZ,Hippoglossus hippoglossus ,Atlantic Halibut NAFO-5YZ,EN,unspecified,5,USA,USA,0.895502963,3500,15.06827353,13.49368359,NEFSC-ATHAL5YZ-1800-2007-COL
+BIGEYEATL,Thunnus obesus ,Bigeye tuna Atlantic,VU,decreasing,4,multinational,Atlantic,1.749116527,92000,18.33729914,32.07407298,ICCAT-BIGEYEATL-1950-2010-CHING
+BIGEYECWPAC,Thunnus obesus ,Bigeye tuna Central Western Pacific,VU,decreasing,4,multinational,CW Pacific,1.007149874,108520,18.50244505,18.6347352,SPC-BIGEYECWPAC-1950-2015-PONS
+BIGEYEEPAC,Thunnus obesus ,Bigeye tuna Eastern Pacific,VU,decreasing,4,multinational,E Pacific,1.105578368,106201,18.48084408,20.43202144,IATTC-BIGEYEEPAC-1954-2012-PONS
+BKCDLFENI,Epigonus telescopus,Black cardinalfish East coast of North Island,LC,unknown,2,New Zealand,New Zealand,1.048024352,666,13.40904495,14.05300564,NIWA-BKCDLFENI-1923-2009-CORDUE
+BMARLINATL,Makaira nigricans,Blue marlin Atlantic,VU,decreasing,4,multinational,Atlantic Ocean,1.749116527,2000,14.50865774,25.37733303,
+BLKMARLINIO,Istiompax indica,Black marlin Indian Ocean,DD,unknown,1,multinational,Indian Ocean,1.927864876,8605,15.96785399,30.78386485,IOTC-BLKMARLINIO-1950-2014-PONS
+BMARLINPAC,Makaira nigricans,Blue marlin Pacific Ocean,VU,decreasing,4,multinational,Pacific Ocean,1.250825983,19459,16.78382025,20.99363846,
+BLSHARNPAC,Prionace glauca ,Blue shark North Pacific,NT,unknown,3,multinational,N Pacific,1.272890706,72123,18.09388355,23.03153621,ISC-BLSHARNPAC-1971-2012-ASHBROOK
+BLUEFISHATLC,Pomatomus saltatrix,Bluefish Atlantic Coast,VU,decreasing,4,USA,USA,0.895502963,13967,16.45220796,14.73300098,NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD
+BMACKECS,Scomber australasicus,Spotted mackerel East China Sea,LC,stable,2,Japan,Japan,1.025237182,54757.32305,17.81842167,18.26810842,FAFRFJ-BMACKECS-1992-2013-JPNIMP2016
+BMACKPJPN,Scomber australasicus,Spotted mackerel Pacific Coast of Japan,LC,stable,2,Japan,Japan,1.025237182,145655.7838,18.79675675,19.27113392,FAFRFJ-BMACKPJPN-1982-2013-JPNIMP2016
+BMARLINATL,Makaira nigricans,Blue marlin Atlantic,VU,decreasing,4,multinational,Atlantic,1.72741334,2000,14.50865774,25.06244892,ICCAT-BMARLINATL-1956-2010-CHING
+BSBASSMATLC,Centropristis striata,Black sea bass Mid-Atlantic Coast,LC,stable,2,USA,USA,0.895502963,3284,15.00457275,13.43663936,NEFSC-BSBASSMATLC-1968-2007-SHEPHERD
+BSBASSSATL,Centropristis striata,Black sea bass South Atlantic,LC,stable,2,USA,USA,0.895502963,807.394472,13.60156764,12.18024412,SEFSC-BSBASSSATL-1950-2010-HIVELY
+CALSCORPSCAL,Scorpaena guttata,California scorpionfish Southern California,LC,unknown,1,USA,USA,0.895502963,127,11.75194237,10.52389921,SWFSC-CALSCORPSCAL-1914-2015-SISIMP2016
+CMACKPCOAST,Scomber japonicus ,Pacific chub mackerel Pacific Coast,LC,stable,2,USA,USA,0.895502963,23048.2,16.95309823,15.1815497,SWFSC-CMACKPCOAST-1929-2008-PINSKY
+CMACKPJPN,Scomber japonicus,Chub mackerel Pacific Coast of Japan,LC,stable,2,Japan,Japan,1.025237182,355290.851,19.68844731,20.18532824,FAFRFJ-CMACKPJPN-1970-2009-ONO
+CMACKTSST,Scomber japonicus,Chub mackerel Tsushima Strait,LC,stable,2,Japan,Japan,1.025237182,325542.1507,19.60100251,20.09567657,FAFRFJ-CMACKTSST-1973-2013-JPNIMP2016
+CMACKWA,Trachurus capensis,Chub Mackerel West Africa,LC,unknown,2,multinational,West Africa,2.595856662,NA,NA,NA,
+CTRACSA,Trachurus capensis,Cape horse mackerel South Africa South coast,LC,unknown,2,South Africa,South Africa,1.91096113,72924.09,18.1049296,34.59781672,MARAM-CTRACSA-1949-2013-Furman
+GAGGM,Mycteroperca microlepis,Gag Gulf of Mexico,VU,unknown,4,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,
+GAGSATLC,Mycteroperca microlepis,Gag Southern Atlantic coast,VU,decreasing,4,USA,USA,0.895502963,425.5603897,12.96116214,11.6067591,SEFSC-GAGSATLC-1962-2005-JENSEN
+GRAMBERGM,Seriola dumerili,Greater amberjack Gulf of Mexico,LC,unknown,2,USA,USA,0.895502963,1632.93264,14.30588812,12.8109652,SEFSC-GRAMBERGM-1950-2012-SISIMP2016
+GRAMBERSATLC,Seriola dumerili,Greater amberjack Southern Atlantic coast,LC,unknown,2,USA,USA,0.895502963,909.45,13.7205953,12.28683375,SEFSC-GRAMBERSATLC-1946-2006-JENSEN
+JAMBERJPN,Seriola quinqueradiata,Japanese amberjack Japan,LC,unknown,2,Japan,Japan,1.025237182,134880.3277,18.71989848,19.19233597,FAFRFJ-JAMBERJPN-1952-2013-JPNIMP2016
+JANCHOPJPN,Engraulis japonicus,Japanese anchovy Pacific Coast of Japan,LC,unknown,2,Japan,Japan,1.025237182,265609.5972,19.39753811,19.88707731,FAFRFJ-JANCHOPJPN-1978-2013-JPNIMP2016
+JANCHOSETO,Engraulis japonicus,Japanese anchovy Inland Sea of Japan,LC,unknown,2,Japan,Japan,1.025237182,69571.404,18.05786418,18.51359378,FAFRFJ-JANCHOSETO-1955-2013-JPNIMP2016
+JANCHOTSST,Engraulis japonicus,Japanese anchovy Tsushima Strait,LC,unknown,2,Japan,Japan,1.025237182,149715.1118,18.82424479,19.29931568,FAFRFJ-JANCHOTSST-1976-2013-JPNIMP2016
+JCSQUIDJPNAR,Todarodes pacificus,Japanese flying squid Japan Autumn recruitment,LC,unknown,2,Japan,Japan,1.025237182,300926.458,19.52237647,20.01506624,FAFRFJ-JCSQUIDJPNAR-1979-2014-JPNIMP2016
+JCSQUIDJPNWR,Todarodes pacificus,Japanese flying squid Japan Winter recruitment,LC,unknown,2,Japan,Japan,1.025237182,222668.703,19.22119559,19.7062844,FAFRFJ-JCSQUIDJPNWR-1979-2014-JPNIMP2016
+JMACKPJPN,Trachurus japonicus,Japanese jack mackerel Pacific Coast of Japan,NT,decreasing,3,Japan,Japan,1.025237182,70940.57896,18.07735317,18.53357462,FAFRFJ-JMACKPJPN-1982-2009-ONO
+JMACKTSST,Trachurus japonicus,Japanese jack mackerel Tsushima Strait,NT,decreasing,3,Japan,Japan,1.025237182,175541.5181,18.98338614,19.46247331,FAFRFJ-JMACKTSST-1973-2010-ONO
+JPUFFIMKB,Takifugu rubripes,Japanese pufferfish Ise and Mikawa Bay,NT,decreasing,3,Japan,Japan,1.025237182,133.7354381,11.80361878,12.10150886,FAFRFJ-JPUFFIMKB-1993-2013-JPNIMP2016
+JPUFFSOJECSSI,Takifugu rubripes,Japanese pufferfish Sea of Japan and East China Sea and Seto Inland sea,NT,decreasing,3,Japan,Japan,1.025237182,257.5122692,12.45882265,12.77324822,FAFRFJ-JPUFFSOJECSSI-1993-2013-JPNIMP2016
+LNOSESKAPCOAST,Raja rhina ,Longnose skate Pacific Coast,LC,stable,2,USA,USA,0.895502963,1268,14.05295141,12.58445963,NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH
+MUTSNAPSATLCGM,Lutjanus analis,Mutton snapper Southern Atlantic coast and Gulf of Mexico,NT,decreasing,3,USA,USA,0.895502963,413.9,12.93337968,11.58187982,SEFSC-MUTSNAPSATLCGM-1981-2006-JENSEN
+OROUGHYCASCADE,Hoplostethus atlanticus ,Orange roughy Cascade Plateau,VU,unknown,4,Australia,Australia,1.193009991,NA,NA,NA,
+OROUGHYCH,Hoplostethus atlanticus ,Orange roughy Chile,VU,unknown,4,multinational,South America,1.125724334,NA,NA,NA,
+OROUGHYESCR,Hoplostethus atlanticus ,Orange roughy East and South Chatham Rise,VU,unknown,4,New Zealand,New Zealand,1.048024352,8640,15.97191314,16.73895392,
+OROUGHYNWCR,Hoplostethus atlanticus ,Orange roughy Northwest Chatham Rise,VU,unknown,4,New Zealand,New Zealand,1.048024352,1386,14.14193246,14.8210896,NIWA-OROUGHYNWCR-1910-2014-FU
+OROUGHYNZ7A,Hoplostethus atlanticus ,Orange roughy New Zealand Challenger Plateau,VU,unknown,4,New Zealand,N Zealand,1.048024352,1848,14.42961453,15.12258742,NIWA-OROUGHYNZ7A-1910-2014-FU
+OROUGHYNZMEC,Hoplostethus atlanticus ,Orange roughy New Zealand Mid East Coast,VU,unknown,4,New Zealand,N Zealand,1.048024352,2214,14.61031139,15.31196213,NIWA-OROUGHYNZMEC-1882-2014-FU
+OROUGHYSE,Hoplostethus atlanticus ,Orange roughy Southeast Australia,VU,unknown,4,Australia,Australia,1.193009991,2191.690032,14.60018351,17.41816479,
+PACBTUNA,Thunnus orientalis ,Pacific bluefin tuna Pacific Ocean,VU,decreasing,4,multinational,Pacific,1.250825983,17345,16.66881484,20.84978671,ISC-PACBTUNA-1952-2012-PONS
+PHAKEPCOAST,Merluccius productus ,Pacific hake Pacific Coast,LC,unknown,2,USA,USA,0.895502963,406000,19.82186372,17.75053769,NWFSC-PHAKEPCOAST-1966-2015-HIVELY
+PSOLEPCOAST,Eopsetta jordani ,Petrale sole Pacific Coast,LC,stable,2,USA,USA,0.895502963,2588,14.76639593,13.22335131,NWFSC-PSOLEPCOAST-1876-2015-SISIMP2016
+RBRMECS,Pagrus major,Red seabream East China Sea,LC,unknown,2,Japan,Japan,1.025237182,11625.59874,16.26872001,16.67929666,FAFRFJ-RBRMECS-1969-2010-ONO
+RBRMSETOE,Pagrus major,Red seabream Inland Sea of Japan (East),LC,unknown,2,Japan,Japan,1.025237182,3105.528673,14.94869452,15.32595745,FAFRFJ-RBRMSETOE-1977-2010-ONO
+RBRMSETOW,Pagrus major,Red seabream Inland Sea of Japan (West),LC,unknown,2,Japan,Japan,1.025237182,4173.130057,15.24417693,15.62889699,FAFRFJ-RBRMSETOW-1977-2010-ONO
+RGROUPGM,Epinephelus morio,Red grouper Gulf of Mexico,VU,decreasing,4,USA,USA,0.895502963,6529.16,15.69178886,14.05204342,SEFSC-RGROUPGM-1986-2005-JENSEN
+RGROUPSATL,Epinephelus morio,Red grouper South Atlantic,VU,decreasing,4,USA,USA,0.895502963,503.49,13.12931913,11.75734418,SEFSC-RGROUPSATL-1976-2009-HIVELY
+RHERRPAC,Etrumeus teres,Round herring Pacific Ocean,LC,unknown,2,Japan,Russia Japan,1.025237182,NA,NA,NA,
+RHERRTSST,Etrumeus teres,Round herring Tsushima Strait,LC,unknown,2,Japan,Japan,1.025237182,43991.57093,17.5995086,18.04367061,FAFRFJ-RHERRTSST-1976-2013-JPNIMP2016
+RPORGYSATLC,Pagrus pagrus,Red porgy Southern Atlantic coast,LC,unknown,2,USA,USA,0.895502963,378.2960366,12.84343233,11.50133171,SEFSC-RPORGYSATLC-1972-2012-HIVELY
+RSARDINWA,Sardinella aurita,Round Sardinella West Africa,LC,unknown,2,multinational,W Africa,2.595856662,NA,NA,NA,FAO-SPNWA-RSARDINWA-1990-2010-CHING
+RSNAPGM,Lutjanus campechanus,Red snapper Gulf of Mexico,VU,decreasing,4,USA,USA,0.895502963,5855.877884,15.58295648,13.9545837,SEFSC-RSNAPGM-1872-2011-HIVELY
+RSNAPSATLC,Lutjanus campechanus,Red snapper Southern Atlantic coast,VU,decreasing,4,USA,USA,0.895502963,195.044732,12.18098421,10.90810745,SEFSC-RSNAPSATLC-1950-2014-SISIMP2016
+SARDMEDGSA16,Sardina pilchardus,Sardine South of Sicily,LC,unknown,2,multinational,South of Sicily,2.156761822,5307,15.48453726,33.3964588,CNR-IAMC-SARDMEDGSA16-1998-2011-BANOBI
+SARDWAZC,Sardina pilchardus,Sardine West Africa Zone C,LC,unknown,2,multinational,W Africa,2.595856662,NA,NA,NA,FAO-SPNWA-SARDWAZC-1990-2010-CHING
+SBT,Thunnus maccoyii,Southern bluefin tuna Southern Oceans,CR,decreasing,6,multinational,Indian Ocean,1.927864876,33000,17.31201812,33.37523167,HAWG-HERR2224IIIa-1991-2013-ICESIMP2016
+SCMPBP,Metanephrops challenger ,Scampi Bay of Plenty,LC,unknown,2,New Zealand,New Zealand,1.048024352,342.4918,12.74400299,13.35602548,NIWA-SCMPBP-1985-2010-CORDUE
+SCMPMB,Metanephrops challenger ,Scampi Mernoo Bank,LC,unknown,2,New Zealand,New Zealand,1.048024352,NA,NA,NA,
+SCMPWHB,Metanephrops challenger ,Scampi Wairapa/Hawke Bay,LC,unknown,2,New Zealand,New Zealand,1.048024352,194,12.17561344,12.76033938,NIWA-SCMPWHB-1985-2010-CORDUE
+SHAKE4VWX,Merluccius bilinearis,Silver hake Scotian Shelf and Bay of Fundy,NT,unknown,3,Canada,Canada,0.85047205,16000,16.58809928,14.1077148,DFO-MAR-SHAKE4VWX-1969-2015-OSGOOD
+SKJCIO,Katsuwonus pelamis ,Skipjack tuna Indian Ocean,LC,stable,2,multinational,Indian Ocean,2.05607134,510000,20.04992128,41.22406852,IOTC-SKJCIO-1950-2014-PONS
+SKJCWPAC,Katsuwonus pelamis ,Skipjack tuna Central Western Pacific,LC,stable,2,multinational,CW Pacific,1.007149874,1618800,21.20495097,21.3565637,SPC-SKJCWPAC-1950-2012-PONS
+SKJEATL,Katsuwonus pelamis ,Skipjack tuna Eastern Atlantic,LC,stable,2,multinational,E Atlantic,2.183111075,156500,18.86856657,41.19217664,ICCAT-SKJEATL-1950-2010-CHING
+SKJWATL,Katsuwonus pelamis ,Skipjack tuna Western Atlantic,LC,stable,2,multinational,W Atlantic,1.162066017,31620,17.26930039,20.06806712,ICCAT-SKJWATL-1950-2014-PONS
+SMOOTHOREOBP,Pseudocyttus maculatus ,Smooth Oreo Bounty Plateau,DD,decreasing,1,New Zealand,New Zealand,1.048024352,447,13.01031387,13.63512577,NIWA-SMOOTHOREOBP-1983-2008-CORDUE
+SMOOTHOREOCR,Pseudocyttus maculatus ,Smooth oreo Chatham Rise,DD,decreasing,1,New Zealand,New Zealand,1.048024352,2996,14.91278862,15.62896563,NIWA-SMOOTHOREOCR-1955-2013-FU
+SMOOTHOREOEPR,Pseudocyttus maculatus ,Smooth Oreo East Pukaki Rise,DD,decreasing,1,New Zealand,New Zealand,1.048024352,443,13.00132505,13.62570526,NIWA-SMOOTHOREOEPR-1973-2006-CORDUE
+SMOOTHOREOSLD,Pseudocyttus maculatus ,Smooth Oreo Southland,DD,decreasing,1,New Zealand,New Zealand,1.048024352,420.72,12.94972281,13.57162485,NIWA-SMOOTHOREOSLD-1973-2007-CORDUE
+SMOOTHOREOWECR,Pseudocyttus maculatus ,Smooth oreo West end of Chatham Rise,DD,decreasing,1,New Zealand,New Zealand,1.048024352,2179,14.59437661,15.29526209,NIWA-SMOOTHOREOWECR-1965-2009-CORDUE
+SNOWGROUPSATLC,Epinephelus niveatus,Snowy grouper Southern Atlantic coast,VU,decreasing,4,USA,USA,0.895502963,189.8737661,12.15411474,10.88404576,SEFSC-SNOWGROUPSATLC-1974-2013-HIVELY
+SPANMACKSATLC,Scomberomorus maculatus,Spanish mackerel Southern Atlantic Coast,LC,unknown,2,USA,USA,0.895502963,2750,14.82711147,13.27772225,SEFSC-SPANMACKSATLC-1950-2012-HIVELY
+SPANMACKSETO,Scomberomorus niphonius,Japanese Spanish mackerel Inland Sea of Japan,DD,unknown,1,Japan,Japan,1.025237182,6926.257021,15.75083011,16.14833668,FAFRFJ-SPANMACKSETO-1987-2010-ONO
+SPSDOGPCOAST,Squalus suckleyi ,Spotted spiny dogfish Pacific Coast,LC,stable,2,USA,USA,0.895502963,848,13.65063591,12.22418491,NWFSC-SPSDOGPCOAST-1916-2011-STACHURA
+SSTHORNHPCOAST,Sebastolobus alascanus ,Shortspine thornyhead Pacific Coast,EN,unspecified,5,USA,USA,0.895502963,2034,14.52551486,13.00764159,NWFSC-SSTHORNHPCOAST-1901-2005-STANTON
+STFLOUNNPCOAST,Platichthys stellatus ,Starry flounder Northern Pacific Coast,LC,stable,2,USA,USA,0.895502963,818,13.61461762,12.19193041,SWFSC-STFLOUNNPCOAST-1970-2005-STANTON
+STFLOUNSPCOAST,Platichthys stellatus ,Starry flounder Southern Pacific Coast,LC,stable,2,USA,USA,0.895502963,396,12.88916949,11.54228947,SWFSC-STFLOUNNPCOAST-1970-2005-STANTON
+STMARLINIO,Kajikia audax ,Striped marlin Indian Ocean,NT,decreasing,3,USA,USA,0.895502963,4218,15.25487164,13.66078275,SWFSC-STFLOUNNPCOAST-1970-2005-STANTON
+STMARLINNEPAC,Kajikia audax ,Striped marlin Northeast Pacific,NT,decreasing,3,multinational,NE Pacific Ocean,1.427816046,2596,14.76948236,21.08810391,
+STMARLINSWPO,Kajikia audax ,Striped marlin Southwestern Pacific Ocean,NT,decreasing,3,multinational,S Pacific,1.011341647,2081,14.54835911,14.71336146,SPC-STMARLINSWPO-1952-2011-CHING
+STMARLINWCNPAC,Kajikia audax ,Striped marlin Western and Central North Pacific,NT,decreasing,3,multinational,N Pacific,1.272890706,5657,15.54840427,19.79141929,ISC-STMARLINWCNPAC-1951-2010-CHING
+SWORDEPAC,Xiphias gladius ,Swordfish Eastern Pacific,LC,decreasing,2,multinational,E Pacific,1.105578368,54900,17.82102391,19.70253853,IATTC-SWORDEPAC-1951-2012-PONS
+SWORDIO,Xiphias gladius ,Swordfish Indian Ocean,LC,decreasing,2,multinational,Indian Ocean,2.05607134,27100,17.11504429,35.18975204,
+SWORDMED,Xiphias gladius ,Swordfish Mediterranean Sea,LC,decreasing,2,multinational,Mediterranean Sea,1.527982791,14600,16.49653209,25.20641714,ICCAT-SWORDMED-1950-2009-CHING
+SWORDNATL,Xiphias gladius ,Swordfish North Atlantic,LC,decreasing,2,multinational,N Atlantic,1.684328499,13700,16.43290639,27.67841256,ICCAT-SWORDNATL-1950-2011-SISIMP2016
+SWORDNPAC,Xiphias gladius ,Swordfish North Pacific,LC,decreasing,2,multinational,N Pacific,1.272890706,14920,16.51821315,21.02588,ISC-SWORDNPAC-1951-2012-PONS
+SWORDSATL,Xiphias gladius ,Swordfish South Atlantic,LC,decreasing,2,multinational,S Atlantic,1.792744301,14210,16.4694565,29.52552428,ICCAT-SWORDSATL-1950-2015-PONS
+TILEGM,Lopholatilus chamaeleonticeps,Tilefish Gulf of Mexico,EN,decreasing,5,USA,US Southeast and Gulf,0.895502963,NA,NA,NA,
+TILEMATLC,Lopholatilus chamaeleonticeps,Tilefish Mid-Atlantic Coast,EN,decreasing,5,USA,US East Coast,0.895502963,1029,13.84409801,12.3974308,
+TILESATLC,Lopholatilus chamaeleonticeps,Tilefish Southern Atlantic coast,EN,decreasing,5,USA,USA,0.895502963,253.9886108,12.44504471,11.14457441,SEFSC-BLTILESATLC-1974-2011-SISIMP2016
+TREVALLYTRE7,Pseudocaranx dentex ,Trevally New Zealand Areas TRE 7,LC,unknown,2,New Zealand,N Zealand,1.048024352,1818,14.41324755,15.10543443,NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSEN
+VSNAPSATLC,Rhomboplites aurorubens,Vermilion snapper Southern Atlantic coast,VU,decreasing,4,USA,USA,0.895502963,696.7187,13.45413702,12.04821957,SEFSC-VSNAPSATLC-1945-2012-HIVELY
+WMARLINATL,Tetrapturus albidus,White marlin Atlantic,VU,decreasing,4,multinational,Atlantic,1.749116527,1239,14.02981516,24.53978157,ICCAT-WMARLINATL-1956-2011-CHING
+YFINATL,Thunnus albacares,Yellowfin tuna Atlantic,NT,decreasing,3,multinational,Atlantic Ocean,1.749116527,144600,18.78948187,32.86499327,
+YFINCWPAC,Thunnus albacares,Yellowfin tuna Central Western Pacific,NT,decreasing,3,multinational,CW Pacific Ocean,1.007149874,586400,20.18951271,20.33386518,
+YFINEIO,Thunnus albacares,Yellowfin tuna Indian Ocean,NT,decreasing,3,multinational,E Pacific,1.105578368,422000,19.86051587,21.95735673,IOTC-YFINEIO-1950-2014-PONS
+YFINEPAC,Thunnus albacares ,Yellowfin tuna Eastern Pacific,NT,decreasing,3,multinational,E Pacific,1.105578368,274960,19.43213619,21.48374942,IATTC-YFINEPAC-1950-2012-PONS
